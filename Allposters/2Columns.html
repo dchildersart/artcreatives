@@ -1,0 +1,740 @@
+<art:head>
+<style>
+.hero-group a {
+display: block;
+}
+
+.hero--container {
+margin: 5px auto 15px auto;
+max-width: 1008px;
+padding: 5px;
+}
+
+.hero-group {
+/* background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/mobile/bf_fri_background_mobile_retina.jpg'); */
+background-size: 100% 100%;
+background-color: #061429;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+/* height: 110vw; */
+height: 104vw;
+/* justify-content: center; */
+padding-top: 5vw;
+box-sizing: border-box;
+text-align: center;
+}
+
+.bg-1 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/mobile/bf_fri_background_mobile_retina2.jpg');
+}
+
+.bg-2 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/mobile/cyber_weekend/cw_tier1_mobile_retina.jpg');
+}
+
+.bg-3 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/mobile/cyber_weekend/cw_tier1_mobile_retina.jpg');
+}
+
+.bg-4 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/mobile/cyber_monday/cw_tier1_mobile_retina.jpg');
+}
+
+.bg-5 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/mobile/cyber_monday/cw_tier1_mobile_retina.jpg');
+}
+
+
+
+
+@media only screen and (min-width: 667px) {
+.hero-group {
+/* background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/desktop/bf_fri_background_desktop.jpg'); */
+height: 36vw;
+}
+
+.bg-1 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/desktop/bf_fri_background_desktop.jpg');
+}
+
+.bg-2 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/desktop/cyber_weekend/cw_sale_bg_us_uk_fr_desktop.jpg');
+}
+
+.bg-3 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/desktop/cyber_weekend/cw_extended_bg_usuk_desktop2.jpg');
+}
+
+.bg-4 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/desktop/cyber_monday/cm_and_extended_tier1_desktop.jpg');
+}
+
+.bg-5 {
+background-image: url('https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T1/desktop/cyber_monday/cm_and_extended_tier1_desktop.jpg');
+}
+}
+
+@media only screen and (min-width: 1008px) {
+.hero-group {
+/* height: 353px; */
+height: 367px;
+padding-top: 51px;
+
+}
+}
+
+
+.hero-group a:hover {
+color: black;
+}
+
+.hero-group a {
+text-decoration: none;
+/* margin-top: 5vw; */
+position: relative;
+}
+
+@media only screen and (min-width: 667px) {
+.hero-group a {
+margin-top: 0;
+padding-bottom: 0;
+}
+}
+
+.hero-deal-copy {
+color: #fff;
+font-family: "FuturaStd-ExtraBold", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+margin: 0 auto;
+text-indent: 0;
+font-size: 6vw;
+text-transform: uppercase;
+margin-top: 2vw;
+}
+
+.bg-4 .hero-deal-copy {
+margin-top: 4vw;
+}
+
+.hero-deal-copy span.third-title {
+font-size: 5vw;
+}
+
+@media only screen and (min-width:667px) {
+.hero-deal-copy {
+font-size: 3vw;
+margin-top: 0vw;
+}
+
+.bg-4 .hero-deal-copy {
+margin-top:0vw;
+}
+
+.hero-deal-copy span.third-title {
+font-size: 3vw;
+}
+}
+
+@media only screen and (min-width:1008px) {
+.hero-deal-copy {
+font-size: 28px;
+margin-top:1px;
+}
+
+.hero-deal-copy span.third-title {
+font-size: 30px;
+}
+}
+
+.left-price,
+.right-price {
+position: relative;
+cursor: pointer;
+}
+
+.hero-copy {
+color: #ffffff;
+padding: 3vw 3vw 2vw 3vw;
+}
+
+.hero-copy p {
+color: #FFF;
+}
+
+.price-group {
+display: flex;
+justify-content: space-evenly;
+margin-top: 3vw;
+/* justify-content: space-around; */
+width: 65%;
+/* width: 60% == width: 47vw; */
+flex-direction: column;
+}
+
+.right-price,
+.left-price {
+border: #FFF 2px solid;
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+@media only screen and (min-width: 667px) {
+.price-group {
+flex-direction: row;
+margin-top: 2vw;
+width: 91%;
+justify-content: space-around;
+}
+
+.price-group > div {
+width: 43%;
+}
+}
+
+@media only screen and (min-width: 1008px) {
+.price-group {
+margin-top: 14px;
+}
+}
+
+
+.price-group .right-price {
+margin: 5.5vw 0 0 0;
+}
+
+@media only screen and (min-width: 667px) {
+.price-group .right-price {
+margin: 0;
+}
+}
+
+.price-group .hero-copy h1 {
+margin: 0;
+}
+
+/* NOTE: change to px equivalent */
+.price-group .left-price p {
+margin: 0 !important;
+}
+
+.price-group .right-price p {
+margin: 0 !important;
+position: relative;
+}
+
+.price-group .right-price h1 {
+
+}
+
+
+
+.price-group h1 {
+font-size: 9vw;
+font-family: "FuturaStd-Heavy", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 667px) {
+
+.price-group h1 {
+font-size: 4.2vw;
+}
+}
+
+@media only screen and (min-width: 1008px) {
+
+.price-group h1 {
+font-size: 42px;
+}
+}
+
+.price-group p {
+font-size: 4.2vw;
+font-family: "FuturaStd-Medium", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+font-weight: 400;
+}
+
+@media only screen and (min-width: 667px) {
+
+.price-group p {
+font-size: 2.8vw;
+}
+
+
+}
+
+@media only screen and (min-width:1008px) {
+
+.price-group p {
+font-size: 27px;
+}
+}
+
+
+
+@media only screen and (min-width: 667px) {
+.hero-copy {
+padding: 1.7vw;
+}
+}
+
+@media only screen and (min-width: 1008px) {
+.hero-copy {
+padding: 20px;
+}
+}
+
+
+
+.hero-big-text {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+margin: 0;
+text-align: center;
+padding: 7.3vw 7vw;
+}
+
+@media only screen and (min-width: 667px) {
+.hero-big-text {
+padding: 2vw 7vw;
+}
+}
+
+@media only screen and (min-width: 1008px) {
+.hero-big-text {
+padding: 20px 71px;
+}
+}
+
+.hero-cta {
+border: none;
+font-family: "FuturaStd-Medium", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-size: 3.5vw;
+background-color: #FFF;
+color: #040d1d;
+letter-spacing: .1vw;
+text-indent: .3vw;
+padding: 1.5vw !important;
+}
+
+@media only screen and (min-width:667px) {
+.hero-cta {
+font-size: 2.2vw;
+margin: 0 0 0;
+padding: 0.7vw !important;
+}
+}
+
+@media only screen and (min-width:1008px) {
+.hero-cta {
+margin: 0 0 0;
+padding: 7px !important;
+font-size: 25px;
+letter-spacing: 1px;
+text-indent: 3px;
+}
+}
+
+
+
+/* IE10+ CSS styles go here */
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+.hero-deal-copy {
+background-image: none;
+color: #ccb96f;
+}
+
+.hero-cta {
+background-image: none;
+color: #ccb96f;
+}
+}
+
+.price-group sup {
+/* font-size: 3.2vw; */
+font-size: 3.7vw;
+/* position: absolute;
+top: 8.5vw;
+left: 15vw;
+right: 35.4vw;
+bottom:0; */
+
+}
+
+@media only screen and (min-width:667px) {
+.price-group sup {
+font-size: 2.7vw;
+
+}
+
+.lt_1 {
+line-height: 1;
+}
+
+.right-price p.pt2dot6 {
+font-size: 2.6vw;
+line-height: 3.7vw;
+}
+
+p.third-p {
+font-size: 2vw;
+}
+}
+
+@media only screen and (min-width:1008px) {
+.price-group sup {
+font-size: 25px;
+
+}
+.right-price p.pt2dot6 {
+font-size: 26px;
+line-height:33px;
+}
+p.third-p {
+font-size: 27px;
+line-height:33px;
+}
+}
+
+.hero-cta.cta-glow {
+-webkit-transition: .35s all;
+-moz-transition: .35s all;
+-o-transition: .35s all;
+transition: .35s all;
+}
+
+.exceptions {
+text-align: right;
+margin-top: 3px;
+}
+
+.exceptions p {
+color: #000000 !important;
+font-size: 13px !important;
+}
+
+/* #space {
+display: inline;
+} */
+@media only screen and (min-width: 667px) {
+#space {
+display: none;
+}
+
+}
+
+.hero-subcopy {
+font-family: "FuturaStd-Medium",'Apercu','Helvetica Neue',HelveticaNeue,Helvetica,Arial,sans-serif;
+font-size: 16px;
+}
+
+@media only screen and (max-width: 667px) {
+.hero-subcopy {
+width: 70%;
+font-size: 3.8vw;
+}
+
+.hero-deal-copy {
+line-height: 1;
+}
+}
+
+@media only screen and (max-width: 420px) {
+.hero-subcopy {
+font-size: 3.8vw;
+}
+}
+
+#dollar-sign {
+font-size: 2.5vw;
+}
+
+@media only screen and (min-width:667px) {
+#dollar-sign {
+font-size: 1.5vw;
+}
+}
+
+@media only screen and (min-width:850px) {
+#dollar-sign {
+font-size: 1.3vw;
+}
+}
+
+@media only screen and (min-width:1008px) {
+#dollar-sign {
+font-size: 12px;
+}
+}
+
+</style>
+<script>
+
+
+document.addEventListener("DOMContentLoaded", function(){
+
+// Getting PST no matter time on the local computer
+/* DChilders - US launch PST time */
+
+// var offset = -8.0; // 8 hour difference for PST
+// var localTime = new Date();
+// var utc = localTime.getTime() + (localTime.getTimezoneOffset() * 60000); // Adds the localtime offset to the localtime in millisecnods to get UTC
+// var PST = new Date(utc + (3600000 * offset));
+
+// var month = PST.getMonth() + 1;
+// var day = PST.getDate();
+
+// if (day <= 9) {
+// day = '0' + day;
+// }
+
+// var today = parseInt(month + "" + day);
+// console.log(new Date(utc));
+// console.log(localTime);
+// console.log(PST);
+// console.log(today);
+
+// Old Timer Code
+var offset = -8.0;
+var clientDate = new Date();
+var utc = clientDate.getTime() + (clientDate.getTimezoneOffset() * 60000);
+var serverDate = new Date(utc + (3600000 * offset));
+
+var month = serverDate.getMonth() + 1;
+var day = serverDate.getDate();
+
+if (day <= 9) {
+day = '0' + day;
+}
+var today = parseInt(month + "" + day);
+
+
+// Unit is for 5 days, 1 object for each day...
+// First hex is 'title'. Second is border around pricing.
+// Default will be white
+let colors = {
+day1: ['#ffc600', '#09fffc'],
+day2: ['#fd9d07', '#01f0a2'],
+day3: ['#fd9d07', '#01f0a2'],
+day4: ['#a200ff', '#fd9d07'],
+day5: ['#a200ff', '#fd9d07']
+}
+
+let title = document.getElementById("title-messaging");
+let subcopy = document.getElementById("subcopy-messaging");
+let leftMessaging = document.getElementById("left-messaging");
+let rightMessaging = document.getElementById("right-messaging");
+let rolloverColor, link1, link2;
+
+switch(today) {
+// Tuesday is Extended Sale Unit
+case 1127:
+
+title.innerHTML = "<span class='third-title'>Cyber Monday<span id='space'><br/></span> Extended</span>";
+title.style.color = colors.day5[1];
+subcopy.innerHTML = "FREE SHIPPING ON ALL ORDERS OVER <sup id=\"dollar-sign\">$</sup>75";
+subcopy.style.color = colors.day1[1];
+document.getElementsByClassName('hero-cta')[0].style.backgroundColor = colors.day5[0];
+document.getElementsByClassName('hero-cta')[1].style.backgroundColor = colors.day5[0];
+
+document.getElementsByClassName('left-price')[0].style.borderColor = colors.day5[0];
+document.getElementsByClassName('right-price')[0].style.borderColor = colors.day5[0];
+document.getElementsByClassName("hero-group")[0].classList.add("bg-5");
+
+rolloverColor = colors.day5[0];
+link1 = 'https://www.allposters.com/-st/Subjects-Posters_c41633_.htm';
+link2 = 'https://www.allposters.com/-st/Framed-Art-Posters_c13150_.htm';
+
+leftMessaging.innerHTML =
+'<h1>50% Off</h1>\
+<p class="third-p">Everything!*</p>';
+rightMessaging.innerHTML =
+'<h1>60% Off</h1>\
+<p class="third-p">All Framing!</p>';
+break;
+case 1126:
+
+title.innerHTML = "<span>Cyber Monday Sale</span>";
+title.style.color = colors.day4[1];
+subcopy.innerHTML = "FREE SHIPPING ON ALL ORDERS OVER <sup id=\"dollar-sign\">$</sup>75";
+subcopy.style.color = colors.day1[1];
+document.getElementsByClassName('hero-cta')[0].style.backgroundColor = colors.day4[0];
+document.getElementsByClassName('hero-cta')[1].style.backgroundColor = colors.day4[0];
+
+document.getElementsByClassName('left-price')[0].style.borderColor = colors.day4[0];
+document.getElementsByClassName('right-price')[0].style.borderColor = colors.day4[0];
+document.getElementsByClassName("hero-group")[0].classList.add("bg-4");
+
+rolloverColor = colors.day4[0];
+link1 = 'https://www.allposters.com/-st/Subjects-Posters_c41633_.htm';
+link2 = 'https://www.allposters.com/-st/Framed-Art-Posters_c13150_.htm';
+
+leftMessaging.innerHTML =
+'<h1>50% Off</h1>\
+<p>Everything!*</p>';
+rightMessaging.innerHTML =
+'<h1>60% Off</h1>\
+<p class="third-p">All Framing!</p>';
+break;
+case 1125:
+
+title.innerHTML = "<span class='third-title'>Cyber Weekend Sale: Final&nbsp;Hours</span>";
+title.style.color = colors.day3[1];
+subcopy.innerHTML = "FREE SHIPPING ON ALL ORDERS OVER <sup id=\"dollar-sign\">$</sup>75";
+subcopy.style.color = colors.day3[1];
+document.getElementsByClassName('hero-cta')[0].style.backgroundColor = colors.day3[0];
+document.getElementsByClassName('hero-cta')[1].style.backgroundColor = colors.day3[0];
+
+document.getElementsByClassName('left-price')[0].style.borderColor = colors.day3[0];
+document.getElementsByClassName('right-price')[0].style.borderColor = colors.day3[0];
+
+document.getElementsByClassName("hero-group")[0].classList.add("bg-3");
+
+rolloverColor = colors.day3[0];
+link1 = 'https://www.allposters.com/-st/Subjects-Posters_c41633_.htm';
+link2 = 'https://www.allposters.com/-st/Novelty-Specialty-Products-Posters_c155594_.htm';
+
+leftMessaging.innerHTML =
+'<h1>50% Off</h1>\
+<p>Everything!*</p>';
+rightMessaging.innerHTML =
+'<p class="third-p">Stocking stuffers as low as</p>\
+<h1 class="lt_1"><sup>$</sup>3.99</h1>';
+break;
+case 1124:
+
+title.innerHTML = "Cyber Weekend Sale";
+title.style.color = colors.day2[1];
+subcopy.innerHTML = "FREE SHIPPING ON ALL ORDERS OVER <sup id=\"dollar-sign\">$</sup>75";
+subcopy.style.color = colors.day2[1];
+document.getElementsByClassName('hero-cta')[0].style.backgroundColor = colors.day2[0];
+document.getElementsByClassName('hero-cta')[1].style.backgroundColor = colors.day2[0];
+
+document.getElementsByClassName('left-price')[0].style.borderColor = colors.day2[0];
+document.getElementsByClassName('right-price')[0].style.borderColor = colors.day2[0];
+
+document.getElementsByClassName("hero-group")[0].classList.add("bg-2");
+rolloverColor = colors.day2[0];
+link1 = 'https://www.allposters.com/-st/Subjects-Posters_c41633_.htm';
+link2 = 'https://www.allposters.com/-st/Novelty-Specialty-Products-Posters_c155594_.htm';
+
+leftMessaging.innerHTML =
+'<h1>50% Off</h1>\
+<p>Everything!*</p>';
+rightMessaging.innerHTML =
+'<p class="third-p">Stocking stuffers as low as</p>\
+<h1 class="lt_1"><sup>$</sup>3.99</h1>';
+break;
+default: // Default or 11/23
+
+
+title.innerHTML = "Black Friday";
+title.style.color = colors.day1[1];
+subcopy.innerHTML = "FREE SHIPPING ON ALL ORDERS OVER <sup id=\"dollar-sign\">$</sup>75";
+subcopy.style.color = colors.day1[1];
+document.getElementsByClassName('hero-cta')[0].style.backgroundColor = colors.day1[0];
+document.getElementsByClassName('hero-cta')[1].style.backgroundColor = colors.day1[0];
+
+document.getElementsByClassName('left-price')[0].style.borderColor = colors.day1[0];
+document.getElementsByClassName('right-price')[0].style.borderColor = colors.day1[0];
+
+document.getElementsByClassName("hero-group")[0].classList.add("bg-1");
+
+rolloverColor = colors.day1[0];
+link1 = 'https://www.allposters.com/-st/Subjects-Posters_c41633_.htm';
+link2 = 'https://www.allposters.com/-st/Entertainment-Posters_c41631_.htm';
+
+
+leftMessaging.innerHTML =
+'<h1>50% Off</h1>\
+<p>Everything!*</p>';
+
+rightMessaging.innerHTML =
+'<p class="pt2dot6">Posters as low as</p>\
+<h1 class="lt_1"><sup>$</sup>3.99</h1>';
+}
+
+/*** Click through functionality ***/
+
+var clickThru1 = document.getElementsByClassName("left-price")[0]; //grab the element
+//console.log(clickThru);
+
+clickThru1.onclick = function() { //asign a function
+console.log('Click Fired');
+ga('send', 'event', 'Home', 'HPH-cyberweekend_2018-shopNow-CTA-1', 'Black Friday Cyber Sale Homepage Hero');
+window.location.href = link1;
+}
+
+var clickThru2 = document.getElementsByClassName("right-price")[0]; //grab the element
+//console.log(clickThru);
+
+clickThru2.onclick = function() { //asign a function
+console.log('Click 2 Fired');
+ga('send', 'event', 'Home', 'HPH-cyberweekend_2018-shopNow-CTA-2', 'Black Friday Cyber Sale Homepage Hero');
+window.location.href = link2;
+}
+
+/**** Rollover functionality *****/
+
+clickThru1.onmouseover = function () {
+let cta = document.getElementsByClassName("hero-cta")[0];
+console.log(rolloverColor);
+cta.style.boxShadow = "0 0 40px" + rolloverColor; 
+cta.style.color = "#FFFFFF";
+}
+
+clickThru1.onmouseout = function () {
+document.getElementsByClassName("hero-cta")[0].style.boxShadow = 'none';
+document.getElementsByClassName("hero-cta")[0].style.color = "#040d1d";
+}
+
+clickThru2.onmouseover = function () {
+let cta = document.getElementsByClassName("hero-cta")[1];
+console.log(rolloverColor);
+cta.style.boxShadow = "0 0 40px" + rolloverColor; 
+cta.style.color = "#FFFFFF";
+}
+
+clickThru2.onmouseout = function () {
+document.getElementsByClassName("hero-cta")[1].style.boxShadow = 'none';
+document.getElementsByClassName("hero-cta")[1].style.color = "#040d1d";
+}
+});
+
+</script>
+</art:head>
+
+<art:body>
+
+<div class="hero--container">
+<div class="hero-group">
+<div class="hero-big-text">
+<div class="hero-deal-copy" id="title-messaging"></div>
+<div class="hero-subcopy" id="subcopy-messaging"></div>
+<div class="price-group">
+<div class="left-price">
+<div class="hero-copy" id="left-messaging">
+
+</div>
+<div class="hero-cta cta-glow">shop now</div>
+</div>
+<div class="right-price">
+<div class="hero-copy" id="right-messaging">
+
+</div>
+<div class="hero-cta cta-glow">shop now</div>
+</div>
+</div>
+<!-- </a> -->
+</div>
+</div>
+<div class="exceptions"><p>*Minus exceptions</p></div>
+</div>
+</art:body>

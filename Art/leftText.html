@@ -1,0 +1,403 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <style>
+        .hero--container {
+            max-width: 1800px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    
+        @media only screen and (min-width: 667px) {
+            .hero--container {
+                margin: 0 auto;
+            }
+        }
+    
+        .hero-group {
+            background-image: url('https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1118/hero/mobile.jpg');
+            z-index: 99;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 105vw;
+        }
+        
+    
+        @media only screen and (min-width: 667px) {
+            .hero-group {
+                background-image: url('https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1118/hero/desktop.jpg');
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                background-repeat: no-repeat;
+                height: 31vw;
+            }
+        }
+    
+        @media only screen and (min-width: 1008px) {
+            .hero-group {
+                background-image: url('https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1118/hero/desktop.jpg');
+                background-size: cover;
+                margin: auto;
+                background-repeat: no-repeat;
+                height: 31vw;
+            }
+        }
+    
+            @media only screen and (min-width: 1600px) {
+                .hero-group {
+                    height: 495px;
+                }
+            }
+    
+        .hero-group a {
+            display: block;
+            height: 100%;
+        }
+    
+        .hero-big-text {
+            text-align: center;
+            position: relative;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+            height: 100%;
+        }
+    
+        @media only screen and (min-width: 667px) {
+            .hero-big-text {
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                width: 50%;
+                height: 100%;
+            }
+        }
+
+        .hero-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 70%;
+            align-items: center;
+            position: relative;
+            bottom: 5vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-header {
+                bottom: 0
+            }
+        }
+
+        .hero-header img {
+            width: 11vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-header img {
+                width: 6vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-header img {
+                width: 90px;
+            }
+        }
+
+        .hero-header-copy {
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            color: #f3d57e;
+            font-size: 6.7vw;
+            font-weight: 400;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-header-copy {
+                font-size: 2.9vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-header-copy {
+                font-size: 47px;
+            }
+        }
+
+        .hero-subheader {
+            color: #8884ac;
+            font-size: 4vw;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            letter-spacing: .7vw;
+            font-weight: 500;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-subheader {
+                font-size: 2vw;
+                margin: 1vw auto .5vw;
+                letter-spacing: .3vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-subheader {
+                font-size: 32px;
+                letter-spacing: 5px;
+                margin: 16px auto 8px;
+            }
+        }
+    
+        .hero-copy {
+            font-family: 'DomaineDisplay',Helvetica,Arial,sans-serif;
+            color: #fff;
+            text-align: center;
+            font-size: 17.5vw;
+            margin: -4vw auto -2vw;
+            background-position: center;
+            background-size: 90%;
+        }
+    
+        @media only screen and (min-width: 667px) {
+            .hero-copy {
+                letter-spacing: 0;
+                justify-content: center;
+                line-height: 6vw;
+                text-align: center;
+                padding: 1vw 0 3vw;
+                font-size: 7vw;
+                padding: 0;
+                width: 60%;
+                font-size: 7.8vw;
+                margin: .5vw auto .8vw;
+            }
+        }
+    
+        @media only screen and (min-width: 1600px) {
+            .hero-copy {
+                line-height: 95px;
+                font-size: 125.5px;
+                margin: 8px auto 13px;
+            }
+        }
+    
+        .hero-subcopy {
+            color: #8884ac;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-size: 4.3vw;
+            font-weight: 400;
+            padding: 0 0 4vw;
+            width: 42%;
+        }
+    
+        @media only screen and (min-width: 667px) {
+            .hero-subcopy {
+                font-size: 2vw;
+                padding: .5vw 0 2vw;
+                width: 100%;
+                font-size: 1.9vw;
+            }
+        }
+    
+        @media only screen and (min-width: 1008px) {
+            .hero-subcopy {
+                margin: 0;
+            }
+        }
+    
+        @media only screen and (min-width: 1600px) {
+            .hero-subcopy {
+                font-size: 30.5px;
+                padding: 8px 0 32px;
+            }
+        }
+    
+        .hero-cta {
+            margin: 0 auto;
+            font-weight: 700;
+            border: none;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-size: 3.8vw;
+            border-radius: 2px;
+            background: url('https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1118/cta/foil-cta.jpg');
+            color: #fff;
+            background-size: cover;
+            width: 48vw;
+            line-height: 9vw;
+            padding: 0;
+            letter-spacing: 1vw;
+            text-indent: 1vw;
+        }
+    
+        @media only screen and (min-width: 667px) {
+            .hero-cta {
+                text-align: center;
+                line-height: 21px;
+                font-size: 1.5vw;
+                letter-spacing: .3vw;
+                text-indent: .3vw;
+                padding: .7vw 0;
+                width: 16vw;
+            }
+        }
+    
+        @media only screen and (min-width: 1008px) {
+            .hero-cta {
+                font-size: 1.05vw;
+                width: 15.3vw;
+                line-height: normal;
+                padding: .9vw 0;
+            }
+        }
+    
+        @media only screen and (min-width: 1600px) {
+            .hero-cta {
+                padding: 14px 0;
+                line-height: normal;
+                width: 246px;
+                font-size: 17px;
+            }
+        }
+
+        /* SEM */
+        .hero-sem-copy {
+            font-family: 'DomaineDisplay',Helvetica,Arial,sans-serif;
+            color: #fff;
+            text-align: center;
+            font-size: 17.5vw;
+            margin: -3vw auto 0;
+            background-position: center;
+            background-size: 90%;
+        }
+    
+        @media only screen and (min-width: 667px) {
+            .hero-sem-copy {
+                letter-spacing: 0;
+                justify-content: center;
+                line-height: 6vw;
+                text-align: center;
+                padding: 1vw 0 3vw;
+                font-size: 7vw;
+                padding: 0;
+                width: 60%;
+                font-size: 7.8vw;
+                margin: .5vw auto .8vw;
+            }
+        }
+    
+        @media only screen and (min-width: 1600px) {
+            .hero-sem-copy {
+                line-height: 95px;
+                font-size: 125.5px;
+                margin: 8px auto 13px;
+            }
+        }
+
+        .hero-sem-subcopy {
+            color: #fff;
+            font-size: 8.5vw;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            padding: 0 0 5vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-sem-subcopy {
+                font-size: 4vw;
+                padding: 1vw 0 2vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .hero-sem-subcopy {
+                margin: 0;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-sem-subcopy {
+                font-size: 64px;
+                padding: 16px 0 25px;
+            }
+        }
+
+        sup.hero-asterisk {
+            font-size: 5vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            sup.hero-asterisk {
+                font-size: 2vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            sup.hero-asterisk {
+                font-size: 32px;
+            }
+        }
+
+        .small-print-copy {
+            text-align: right;
+            color: #000;
+            font-size: 2vw;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            margin-right: 5px;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .small-print-copy {
+                font-size: 1vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .small-print-copy {
+                font-size: .75vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .small-print-copy {
+                font-size: 12px;
+            }
+        }
+    
+    </style>
+</head>
+<div class="hero--container">
+    <div class="hero-group track-group" id="hph-50rth-CTA">
+        <a href="/gallery/id--d207233/framed-art-prints.htm?CAMPAIGN_THEME=sw_rth_evergreen_50_1118192018">
+            <div class="hero-big-text">
+                <div class="hero-header">
+                    <div class="arrow-left">
+                        <img src="https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1118/arrow/left.png" alt="Deal of the Day">      
+                    </div>
+                        <div class="hero-header-copy">Deal of the Day</div>
+                    <div class="arrow-right">
+                        <img src="https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1118/arrow/right.png" alt="Deal of the Day"> 
+                    </div>
+                </div>
+                <div class="hero-subheader">READY TO HANG ART</div>
+                <div class="hero-copy">50% Off</div>
+                <div class="hero-subcopy">Save on Framed Art, Canvas, and More!</div>
+                <!-- SEM -->
+                <div class="hero-sem-copy" style="display:none;">50% Off</div>
+                <div class="hero-sem-subcopy" style="display:none;">Everything We Sell<sup class="hero-asterisk">*</sup></div>
+                <!-- SEM -->
+                <div class="hero-cta">SHOP NOW</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="small-print-wrapper" style="display:none;">
+        <div class="small-print-copy"><sup class="print-asterisk">*</sup>Terms and Conditions Apply</div>
+    </div>
+</div>

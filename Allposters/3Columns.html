@@ -1,0 +1,530 @@
+<art:head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      /**** DChilders - HPH APC US Gift Guide  week3
+
+      'veterans-day-wrapper' should be a unique wrapper name based on the module  
+      protects surrounding tags on the page (global h1, h2, span, etc...)        ****/
+
+      @font-face {
+      font-family: 'FuturaStd-Heavy';
+      src: url('/cdn/fonts/FuturaStd-Heavy.eot');
+      src: url('/cdn/fonts/FuturaStd-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-Heavy.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-Heavy.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg'),
+      url('/cdn/fonts/FuturaStd-Heavy.ttf') format('truetype');
+      font-weight: 900;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'FuturaStd-ExtraBold';
+      src: url('/cdn/fonts/FuturaStd-ExtraBold.eot');
+      src: url('/cdn/fonts/FuturaStd-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.svg#FuturaStd-ExtraBold') format('svg'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.ttf') format('truetype');
+      font-weight: 800;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'Rockwell';
+      src: url('/cdn/fonts/Rockwell-ExtraBold-Bold.eot') format('eot');
+      src: url('/cdn/fonts/Rockwell-ExtraBold-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/Rockwell-ExtraBold-Bold.woff2') format('woff2'),
+      url('/cdn/fonts/Rockwell-ExtraBold-Bold.woff') format('woff'),
+      url('/cdn/fonts/Rockwell-ExtraBold-Bold.svg#Rockwell-ExtraBold-Bold') format('svg'),
+      url('/cdn/fonts/Rockwell-ExtraBold-Bold.ttf') format('truetype');
+      font-weight: 800;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'FuturaStd-Medium';
+      src: url('/cdn/fonts/FuturaStd-Medium.eot');
+      src: url('/cdn/fonts/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-Medium.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-Medium.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg'),
+      url('/cdn/fonts/FuturaStd-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'Futura-Bold';
+      src: url('/cdn/fonts/Futura-Bold.eot');
+      src: url('/cdn/fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/Futura-Bold.woff2') format('woff2'),
+      url('/cdn/fonts/Futura-Bold.woff') format('woff'),
+      url('/cdn/fonts/Futura-Bold.svg#Futura-Bold') format('svg'),
+      url('/cdn/fonts/Futura-Bold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'Futura-Md';
+      src: url('/cdn/fonts/Futura-Medium.eot');
+      src: url('/cdn/fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/Futura-Medium.woff2') format('woff2'),
+      url('/cdn/fonts/Futura-Medium.woff') format('woff'),
+      url('/cdn/fonts/Futura-Medium.svg#Futura-Medium') format('svg'),
+      url('/cdn/fonts/Futura-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+      }
+
+
+      .veterans-day-wrapper {
+        position: relative;
+        text-align: center;
+        max-width: 1008px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .gift-guide-theme {
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+
+      .veterans-day-wrapper img {
+        width: 100%;
+      }
+
+      .veterans-day-wrapper > div {
+        width: 33%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero-image {
+        max-width: 1008px;      
+        margin: 0 auto;  
+      }
+
+      .hero-bg {
+        position: absolute;
+        z-index: -10000;
+      }
+
+      .hero-bg img {
+        max-width: 1008px;
+      }
+
+      .hero-text-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 30px 15px;
+        top: 0px;   /****** Necessary for IE11 fix *******/
+      }
+
+      .hero-text-container.alternate {
+        padding: 20px;
+      }
+
+      .hero-cta {
+        position: absolute;
+        bottom: 15px;
+      }
+
+      .gift-guide-theme-one, .gift-guide-theme-two, .gift-guide-theme-three {
+        cursor: pointer;
+      }
+
+      .gift-guide-theme-three .hero-image-desktop {
+        /* height: 100%;
+        width: 100%; */
+      }
+
+      .veterans-day-wrapper .hero-cta {
+        font-size: 2vw;
+        font-family: "Futura-Md", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #1a2c5c;
+        color: #FFF;
+        display: inline-block;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding: 10px 30px;
+      }
+
+      .hero-cta.color-1  {
+        background-color: #0d455c;
+      }
+
+      .hero-cta.color-2  {
+        background-color: #3a8bcc;
+      }
+
+      .hero-cta.color-3  {
+        background-color: #541743;
+      }
+
+      .veterans-day-wrapper h2, h1 {
+        color: #FFF;
+        margin: 0;
+        line-height: 1;
+      }
+
+      .veterans-day-wrapper h1 {
+        font-size: 5vw;
+        font-family: "FuturaStd-Medium", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: 2px;
+      }
+
+      .veterans-day-wrapper h2 {
+        font-size: 15px;
+        font-family: "Rockwell","Futura","Apercu","Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+      }
+
+      .alternate h1 {
+        font-family: "Rockwell","Futura","Apercu","Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+        background: url('https://cache1.allpostersimages.com/images/homepage/gift-guide/mobile/bg-text.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-transform: uppercase;
+        font-size: 10vw;
+        font-weight: 900;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        margin: 10px;
+      }
+
+      .alternate h2 {
+        font-family: "Futura-Bold", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        line-height: 18px;
+        letter-spacing: 2px;
+      }
+
+      .hero-image-mobile, .alternate.mobile, .hero-text-container.mobile, .hero-cta.mobile {
+        display: none;
+      }
+
+      .veterans-day-wrapper a {
+        display: block;
+      }
+
+      /* IE10+ CSS styles go here */
+       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+           .hero-text-container {
+              transform: translate(-50%);
+           }
+
+           .veterans-day-wrapper .hero-cta {
+              transform: translate(-50%);
+           }
+
+           .alternate h1 {
+              background-image: none !important;
+              color: #ccb96f !important;
+           }
+        }
+
+      /* Greater than 1008px              */
+      @media only screen and (min-width: 1008px) {
+        .veterans-day-wrapper h1 {
+          font-size: 25px;
+        }
+
+        .veterans-day-wrapper h2 {
+          font-size: 60px;
+        }
+
+        .alternate h2 {
+          font-size: 15px;
+        }
+
+        .alternate h1 {
+          font-size: 40px;
+        }
+
+        .veterans-day-wrapper .hero-cta {
+          font-size: 25px;
+        }
+      }
+
+      /* Between Desktop and Mobile.            */
+      @media (min-width:667px) and (max-width:1008px) {
+
+        .veterans-day-wrapper h1 {
+          font-size: 2.5vw;
+        }
+
+        .veterans-day-wrapper h2 {
+          font-size: 5.7vw;
+        }
+
+        .veterans-day-wrapper .hero-cta {
+          font-size: 2.4vw;
+        }
+
+        .alternate h2 {
+          font-size: 1.5vw;
+        }
+
+        .alternate h1 {
+          font-size: 3.9vw;
+          margin-top: 8px;
+        }
+
+      }
+
+     /* Mobile (Design) Breakpoint                     */
+     @media screen and (max-width: 667px) {
+        .hero-text-container {
+          width: 100%;
+          top: auto;
+        }
+
+        .hero-image-mobile {
+          width: 100%;
+        }
+
+        .veterans-day-wrapper > div {
+          justify-content: center;
+        }
+
+        .hero-image-mobile, .alternate.mobile, .hero-text-container.mobile, .hero-cta.mobile {
+          display: block;
+        }
+        .hero-image-desktop, .hero-text-container.desktop, .hero-cta.desktop {
+          display: none;
+        }
+
+        .hero-text-container.alternate.mobile {
+          width: 63%;
+          right: 0px;
+          padding: 0px;
+        }
+
+        .veterans-day-wrapper {
+          flex-direction: column;
+        }
+
+        .veterans-day-wrapper h1 {
+          font-size: 3vw;
+          margin: 8px auto;
+        }
+
+        h1.gifts_for {
+          margin-top: -1px;
+          margin-bottom: 20px;
+        }
+
+        .veterans-day-wrapper h2 {
+          font-size: 9vw;
+        }
+
+        .hero-cta.mobile {
+          width: 20vw;
+          margin: 0 auto;
+          padding: 10px 20px;
+        }
+
+        .alternate h2 {
+          font-size: 2vw;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+
+        .alternate h1 {
+          font-size: 7vw;
+        }
+
+        .alternate .hero-cta {
+          padding: 8px 20px;
+        }
+
+        .veterans-day-wrapper .hero-cta {
+          font-size: 3vw;
+        }
+
+        .veterans-day-wrapper > div {
+          width: 100%;
+        }
+
+        .gift-guide-theme-two {
+          margin: 4px 0px;
+        }
+
+        .gift-guide-theme-two .hero-text-container.mobile {
+          left: 0;
+          padding: 0;
+        }
+
+        .gift-guide-theme-three .hero-text-container {
+          width: 59%;
+          right: 0;
+          padding: 0;
+        }
+
+        .hero-cta {
+          position: relative;
+          bottom: initial;
+        }
+
+        .hero-text-container.mobile {
+          width: 58%
+        }
+
+        h1.gifts_for {
+          letter-spacing: 1px;
+        }
+      }
+
+
+      /* Additional Mobile Breakpoints                     */
+      @media screen and (max-width: 480px) {
+        .veterans-day-wrapper .hero-cta {
+
+        }
+
+        .alternate.mobile h1 {
+          margin: 4px auto;
+        }
+
+        h1.gifts_for {
+          margin-top: -6px;
+          margin-bottom: 10px;
+        }
+      }
+
+      @media screen and (max-width: 320px) {
+        .hero-cta.mobile {
+          padding: 5px 10px;
+        }
+
+      }
+
+      @media only screen and (device-width : 320px) {
+
+      }
+
+
+
+
+    </style>
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function(){
+
+      var clickThru1 = document.getElementsByClassName("click-thru-1"); //grab the element
+      console.log(clickThru1);
+
+
+      for (var i=0; i < clickThru1.length; i++) {
+          clickThru1[i].onclick = function(){
+              console.log('Click 1 Fired');
+              ga('send', 'event', 'Home', 'hph-giftguide3-shopNow-CTA', 'Homepage Hero Gifts for Gamers Week 3');
+              window.location.href = "https://www.allposters.com/-st/Video-Gamers-Posters_c283564_.htm?CAMPAIGN_THEME=giftguide3";
+          }
+      };
+
+      var clickThru2 = document.getElementsByClassName("click-thru-2"); //grab the element
+
+      for (var i=0; i < clickThru1.length; i++) {
+          clickThru2[i].onclick = function(){
+              console.log('Click 2 Fired');
+              ga('send', 'event', 'Home', 'hph-giftguide3-shopNow-CTA', 'Homepage Hero Holiday Gift Guide Week 3');
+              window.location.href = "https://www.allposters.com/holiday-gift-guide?CAMPAIGN_THEME=giftguide3";
+          }
+      };
+
+      var clickThru3 = document.getElementsByClassName("click-thru-3"); //grab the element
+
+      for (var i=0; i < clickThru1.length; i++) {
+          clickThru3[i].onclick = function(){
+              console.log('Click 3 Fired');
+              ga('send', 'event', 'Home', 'hph-giftguide3-shopNow-CTA', 'Homepage Hero Gifts for Girls Week 3');
+              window.location.href = "https://www.allposters.com/-st/Gifts-for-Girls-Posters_c283559_.htm?CAMPAIGN_THEME=giftguide3";
+          }
+      };
+
+      });
+
+    </script>
+</art:head>
+<art:body>
+    <div class="veterans-day-wrapper">
+      <div class="gift-guide-theme-one">
+        <div class="hero-image-desktop">
+          <a href="https://www.allposters.com/-st/Video-Gamers-Posters_c283564_.htm?CAMPAIGN_THEME=giftguide3">
+            <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/holidays_hph_gift_guide_2018/week3/desktop/us/gamers_bg.jpg" />
+          </a>
+        </div>
+        <div class="hero-image-mobile">
+          <a href="https://www.allposters.com/holiday-gift-guide?CAMPAIGN_THEME=giftguide3">
+            <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/holidays_hph_gift_guide_2018/week3/mobile/us/gift_guide_mobile.jpg" />
+          </a>
+        </div>
+        <div class="hero-text-container desktop" id="click-thru-1">
+          <h2>50% Off</h2>
+          <h1>Gifts for Gamers</h1>
+        </div>
+        <div class="hero-text-container alternate mobile">
+          <h2>Show Santa Who's Boss.</h2>
+          <h1>Holiday<br /> Gift Guide</h1>
+          <div class="hero-cta color-2 mobile click-thru-2">shop now</div>
+        </div>
+        <div class="hero-cta color-1 desktop click-thru-1">shop now</div>
+      </div>
+      <div class="gift-guide-theme-two">
+        <div class="hero-image-desktop">
+          <a href="https://www.allposters.com/holiday-gift-guide?CAMPAIGN_THEME=giftguide3">
+          <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/holidays_hph_gift_guide_2018/week3/desktop/us/gift_guide_bg.jpg" />
+          </a>
+        </div>
+        <div class="hero-image-mobile">
+          <a href="https://www.allposters.com/-st/Video-Gamers-Posters_c283564_.htm?CAMPAIGN_THEME=giftguide3">
+            <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/holidays_hph_gift_guide_2018/week3/mobile/us/gamers_mobile.jpg" />
+          </a>
+        </div>
+        <div class="hero-text-container desktop alternate">
+          <h2>Show Santa Who's Boss.</h2>
+          <h1>Holiday<br />Gift Guide</h1>
+          <div class="hero-cta mobile">shop now</div>
+        </div>
+        <div class="hero-text-container mobile">
+          <h2>50% Off</h2>
+          <h1 class="gifts_for">Gifts for Guys</h1>
+          <div class="hero-cta color-1 mobile click-thru-1">shop now</div>
+        </div>
+        <div class="hero-cta color-2 desktop click-thru-2">shop now</div>
+      </div>
+      <div class="gift-guide-theme-three">
+       <div class="hero-image-desktop">
+          <a href="https://www.allposters.com/-st/Gifts-for-Girls-Posters_c283559_.htm?CAMPAIGN_THEME=giftguide3">
+            <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/holidays_hph_gift_guide_2018/week3/desktop/us/girls_bg.jpg" />
+          </a>
+        </div>
+        <div class="hero-image-mobile">
+          <a href="https://www.allposters.com/-st/Gifts-for-Girls-Posters_c283559_.htm?CAMPAIGN_THEME=giftguide3">
+          <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/holidays_hph_gift_guide_2018/week3/mobile/us/girls_mobile.jpg" />
+          </a>
+        </div>
+        <div class="hero-text-container">
+          <h2>50% Off</h2>
+          <h1 class="gifts_for">Gifts for Girls</h1>
+          <div class="hero-cta color-3 mobile click-thru-3">shop now</div>
+        </div>
+        <div class="hero-cta color-3 desktop click-thru-3">shop&nbsp;now</div>
+      </div>
+    </div>
+</art:body>

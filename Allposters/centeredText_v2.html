@@ -1,0 +1,339 @@
+<art:head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      /**** 'apc-bf-cm-wrapper' should be a unique wrapper name based on the module  
+      protects surrounding tags on the page (global h1, h2, span, etc...)        
+      
+      CA - Canada
+
+      ****/
+
+      @font-face {
+      font-family: 'FuturaStd-Medium';
+      src: url('/cdn/fonts/FuturaStd-Medium.eot');
+      src: url('/cdn/fonts/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-Medium.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-Medium.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg'),
+      url('/cdn/fonts/FuturaStd-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'FuturaStd-Heavy';
+      src: url('/cdn/fonts/FuturaStd-Heavy.eot');
+      src: url('/cdn/fonts/FuturaStd-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-Heavy.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-Heavy.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg'),
+      url('/cdn/fonts/FuturaStd-Heavy.ttf') format('truetype');
+      font-weight: 900;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'FuturaStd-ExtraBold';
+      src: url('/cdn/fonts/FuturaStd-ExtraBold.eot');
+      src: url('/cdn/fonts/FuturaStd-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.svg#FuturaStd-ExtraBold') format('svg'),
+      url('/cdn/fonts/FuturaStd-ExtraBold.ttf') format('truetype');
+      font-weight: 800;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'FuturaStd-Book';
+      src: url('/cdn/fonts/FuturaStd-Book.eot');
+      src: url('/cdn/fonts/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
+      url('/cdn/fonts/FuturaStd-Book.woff2') format('woff2'),
+      url('/cdn/fonts/FuturaStd-Book.woff') format('woff'),
+      url('/cdn/fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg'),
+      url('/cdn/fonts/FuturaStd-Book.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      }
+
+
+      .apc-bf-cm-wrapper {
+        position: relative;
+        text-align: center;
+        max-width: 1008px;
+        margin: 0 auto;
+        cursor: pointer;
+      }
+
+      .apc-bf-cm-wrapper img {
+        width: 100%;
+      }
+
+      .hero-image {
+        max-width: 1008px;      
+        margin: 0 auto;  
+      }
+
+      .hero-bg {
+        position: absolute;
+        z-index: -10000;
+      }
+
+      .hero-bg img {
+        max-width: 1008px;
+      }
+
+      .hero-text-container {
+        text-align: center;
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+      }
+
+      .apc-bf-cm-wrapper .hero-cta {
+        font-size: 2vw;
+        font-family: "FuturaStd-Heavy", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        background-color: #01f0a1;
+        color: #11284c;
+        display: inline-block;
+        position: relative; /* Required for pseudo-element positioning */
+        padding: 10px 60px;
+        border-radius: 6px;
+        -webkit-animation: glowing 3s 3;
+        -moz-animation: glowing 3s 3;
+        -o-animation: glowing 3s 3;
+        animation: glowing 3s 3;
+        animation-timing-function: ease-out;
+        animation-delay: 2s;
+        -webkit-transition: box-shadow .5s ease; /* Safari */
+        transition: box-shadow .5s ease;
+
+      }
+
+      .cta-glow {
+        -webkit-box-shadow: 0 0 30px #01f0a1;
+        box-shadow: 0 0 30px #01f0a1;
+        -webkit-transition: box-shadow .3s ease-out; /* Safari */
+        transition: box-shadow .3s ease-out;
+      }
+
+      @-webkit-keyframes glowing {
+        0% { background-color: #01f0a1; -webkit-box-shadow: 0 0 0px #01f0a1; }
+        30% { background-color: #01f0a1; -webkit-box-shadow: 0 0 3px #01f0a1; }
+        66% { background-color: #01f0a1; -webkit-box-shadow: 0 0 40px #01f0a1; }
+        100% { background-color: #01f0a1; -webkit-box-shadow: 0 0 3px #01f0a1; }
+      }
+
+      @-moz-keyframes glowing {
+        0% { background-color: #01f0a1; -moz-box-shadow: 0 0 0px #01f0a1; }
+        30% { background-color: #01f0a1; -moz-box-shadow: 0 0 3px #01f0a1; }
+        66% { background-color: #01f0a1; -moz-box-shadow: 0 0 40px #01f0a1; }
+        100% { background-color: #01f0a1; -moz-box-shadow: 0 0 3px #01f0a1; }
+      }
+
+      @-o-keyframes glowing {
+        0% { background-color: #01f0a1; box-shadow: 0 0 0px #01f0a1; }
+        33% { background-color: #01f0a1; box-shadow: 0 0 3px #01f0a1; }
+        66% { background-color: #01f0a1; box-shadow: 0 0 40px #01f0a1; }
+        100% { background-color: #01f0a1; box-shadow: 0 0 3px #01f0a1; }
+      }
+
+      @keyframes glowing {
+        0% { background-color: #01f0a1; box-shadow: 0 0 0px #01f0a1; }
+        33% { background-color: #01f0a1; box-shadow: 0 0 3px #01f0a1; }
+        66% { background-color: #01f0a1; box-shadow: 0 0 40px #01f0a1; }
+        100% { background-color: #01f0a1; box-shadow: 0 0 3px #01f0a1; }
+      }
+
+      .apc-bf-cm-wrapper .hero-cta:hover {
+        color: #FFF;
+        -webkit-box-shadow: 0 0 50px #01f0a1;
+        box-shadow: 0 0 50px #01f0a1;
+        -webkit-transition: box-shadow .2s ease-out; /* Safari */
+        transition: box-shadow .2s ease-out;
+      }
+
+      .apc-bf-cm-wrapper h2, .apc-bf-cm-wrapper h1 {
+        color: #FFF;
+        margin: 0;
+        line-height: 1;
+      }
+
+      .apc-bf-cm-wrapper h1 {
+        font-size: 5vw;
+        font-family: "FuturaStd-ExtraBold","Futura","Apercu","Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+        font-weight: 900;
+        margin: 10px auto 10px;
+        color: #a200ff;
+        text-transform: uppercase;
+      }
+
+      .apc-bf-cm-wrapper h2 {
+        font-size: 5vw;
+        font-family: "FuturaStd-Book","Futura","Apercu","Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+        color: #01f0a1;
+        font-weight: 100;
+      }
+
+      .hero-image-mobile {
+        display: none;
+      }
+
+      /* Greater than 1008px              */
+      @media only screen and (min-width: 1008px) {
+        .apc-bf-cm-wrapper h1 {
+          font-size: 100px;
+        }
+
+        .apc-bf-cm-wrapper h2 {
+          font-size: 24px;
+        }
+
+        .apc-bf-cm-wrapper .hero-cta {
+          font-size: 18px;
+        }
+      }
+
+      /* Between Desktop and Mobile.            */
+      @media (min-width:667px) and (max-width:1008px) {
+
+        .apc-bf-cm-wrapper h1 {
+          font-size: 10vw;
+        }
+
+        .apc-bf-cm-wrapper h2 {
+          font-size: 2.4vw;
+        }
+
+        .apc-bf-cm-wrapper .hero-cta {
+          font-size: 1.8vw;
+        }
+
+      }
+
+     /* Mobile (Design) Breakpoint                     */
+     @media screen and (max-width: 667px) {
+        .hero-text-container {
+          width: 100%;
+        }
+
+        .hero-image-mobile {
+          display: block;
+        }
+        .hero-image-desktop {
+          display: none;
+        }
+        .apc-bf-cm-wrapper h1 {
+          font-size: 15vw;
+          margin: 4vw auto;
+        }
+
+        .apc-bf-cm-wrapper h2 {
+          font-size: 4.5vw;
+        }
+
+        .apc-bf-cm-wrapper .hero-cta {
+          font-size: 3.4vw;
+          padding: 1.5vw 10vw;
+        }
+      }
+
+
+    </style>
+
+    <script>
+
+
+      document.addEventListener("DOMContentLoaded", function(){
+
+        // Getting PST no matter time on the local computer
+        /* DChilders - Canada will launch at the same time as US units */
+
+        var offset = -8.0; // 8 hour difference for PST
+        var localTime = new Date();
+        var utc = localTime.getTime() + (localTime.getTimezoneOffset() * 60000); // Adds the localtime offset to the localtime in millisecnods to get UTC
+        var PST = new Date(utc + (3600000 * offset));
+
+        var month = localTime.getMonth() + 1;
+        var day = localTime.getDate();
+
+        if (day <= 9) {
+        day = '0' + day;
+        }
+
+        var today = parseInt(month + "" + day);
+        console.log(new Date(utc));
+        console.log(localTime);
+        console.log(PST);
+        console.log(today);
+
+        let messagingDiv = document.getElementById("messaging");
+
+        switch(today) {
+          // Tuesday is Extended Sale Unit
+          case 1127:
+            // import Extended Sale
+            console.log(' Extended Sale');
+            messagingDiv.innerHTML = "Cyber Monday Sale -- Extended!";
+            break;
+          default:
+            console.log(' Default Unit ');
+            messagingDiv.innerHTML = "Cyber Monday Sale";
+        }
+
+
+        /***  Click through functionality     ***/
+
+        var clickThru = document.getElementById("click-thru"); //grab the element
+        //console.log(clickThru);
+
+        clickThru.onclick = function() { //asign a function
+          console.log('Click Fired');
+          ga('send', 'event', 'Home', 'hph-blackfridaycybersale-shopNow-CTA', 'Black Friday Cyber Sale Homepage Hero');
+          window.location.href = "https://www.allposters.ca/-st/Subjects-posters_c41633_.htm";
+        }
+
+
+        clickThru.onmouseover = function () {
+          let cta = document.getElementsByClassName("hero-cta")[0];
+          cta.classList.add("cta-glow");
+          // Stops the CSS Animation
+          cta.style.animation = "0";
+          cta.style.WebkitAnimation = "0";
+        }
+
+        clickThru.onmouseout = function () {
+          document.getElementsByClassName("hero-cta")[0].classList.remove("cta-glow");
+        }
+
+      });
+
+
+    </script>
+</art:head>
+<art:body>
+    <div class="apc-bf-cm-wrapper" id="click-thru">
+      <div class="hero-image-desktop">
+        <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T2/desktop/APC-Hero-bg.jpg" />
+      </div>
+      <div class="hero-image-mobile">
+        <img src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/blackFriday-cyberMonday/T2/mobile/APC-Hero-bg-mobile.jpg" />
+      </div>
+      <div class="hero-text-container">
+        <h2 id="messaging"></h2>
+        <h1>50% Off</h1>
+        <div class="hero-cta">Shop Now</div>
+      </div>
+    </div>
+</art:body>
