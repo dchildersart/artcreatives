@@ -2,12 +2,12 @@
 
 This repository is used to store and update the common creatives used by the Creative Dev team at Art.com
 
-## Art.com
+## Art
 
-** Heroes **
+**Heroes**
 
-[Centered Text](/Art/centeredText.html)
+  - [Centered Text](/Art/centeredText.html)
 
 
 
-## Allposters.com
+## Allposters
