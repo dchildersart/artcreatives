@@ -6,7 +6,7 @@ This repository is used to store and update the common creatives used by the Cre
 
 **Heroes**
 
-  - [Two-Column Centered Text] (/Art/twoColumnCenter.html)
+  - [Two-Column Centered Text](/Art/twoColumnCenter.html)
     - Description
     - Known Issues
     
