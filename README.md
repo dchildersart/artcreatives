@@ -24,11 +24,11 @@ This repository is used to store and update the common creatives used by the Cre
 
 **Heroes**
 
-  - [Centered Text](/Allposters/centeredText_v1.html)
+  - [Centered Text v1](/Allposters/centeredText_v1.html)
   	- Description
   	- Known Issues
 
-  - [Centered Text](/Allposters/centeredText_v2.html)
+  - [Centered Text v2](/Allposters/centeredText_v2.html)
   	- Description
   	- Known Issues
 
