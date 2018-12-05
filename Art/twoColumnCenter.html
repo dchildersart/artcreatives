@@ -1,0 +1,885 @@
+<art:head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 2 promo 1 row styles */
+        @font-face {
+            font-family: "MajestiBanner";
+            font-style: normal;
+            font-weight: normal;
+            src: url("/cdn/fonts/MajestiBanner-Medium.eot");
+            src: url("/cdn/fonts/MajestiBanner-Medium.eot?#iefix") format("embedded-opentype"), url("/cdn/fonts/MajestiBanner-Medium.woff") format("woff"), url("/cdn/fonts/MajestiBanner-Medium.ttf") format("truetype")
+        }
+
+        @font-face {
+            font-family: "CalibreFamily";
+            src: url("/cdn/fonts/CalibreWeb-Semibold.eot");
+            src: url("/cdn/fonts/CalibreWeb-Semibold.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/CalibreWeb-Semibold.woff") format("woff"),
+                url("/cdn/fonts/CalibreWeb-Semibold.woff2") format("woff2");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "CalibreFamily";
+            src: url("/cdn/fonts/CalibreWeb-Semibold.eot");
+            src: url("/cdn/fonts/CalibreWeb-Semibold.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/CalibreWeb-Semibold.woff") format("woff"),
+                url("/cdn/fonts/CalibreWeb-Semibold.woff2") format("woff2");
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "CalibreFamily";
+            src: url("/cdn/fonts/CalibreWeb-Medium.eot");
+            src: url("/cdn/fonts/CalibreWeb-Medium.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/CalibreWeb-Medium.woff") format("woff"),
+                url("/cdn/fonts/CalibreWeb-Medium.woff2") format("woff2");
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "CalibreFamily";
+            src: url("/cdn/fonts/CalibreWeb-Regular.eot");
+            src: url("/cdn/fonts/CalibreWeb-Regular.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/CalibreWeb-Regular.woff") format("woff"),
+                url("/cdn/fonts/CalibreWeb-Regular.woff2") format("woff2");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "CalibreFamily";
+            src: url("/cdn/fonts/CalibreWeb-Light.eot");
+            src: url("/cdn/fonts/CalibreWeb-Light.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/CalibreWeb-Light.woff") format("woff"),
+                url("/cdn/fonts/CalibreWeb-Light.woff2") format("woff2");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "DomaineText";
+            src: url("/cdn/fonts/DomaineTextWeb-Regular.eot");
+            src: url("/cdn/fonts/DomaineTextWeb-Regular.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/DomaineTextWeb-Regular.woff") format("woff"),
+                url("/cdn/fonts/DomaineTextWeb-Regular.woff2") format("woff2");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "DomaineDisplay";
+            src: url("/cdn/fonts/DomaineDisplayWeb-Semibold.eot");
+            src: url("/cdn/fonts/DomaineDisplayWeb-Semibold.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/DomaineDisplayWeb-Semibold.woff") format("woff"),
+                url("/cdn/fonts/DomaineDisplayWeb-Semibold.woff2") format("woff2");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "DomaineDisplay";
+            src: url("/cdn/fonts/DomaineDisplayWeb-Semibold.eot");
+            src: url("/cdn/fonts/DomaineDisplayWeb-Semibold.eot?#iefix") format("embedded-opentype"),
+                url("/cdn/fonts/DomaineDisplayWeb-Semibold.woff") format("woff"),
+                url("/cdn/fonts/DomaineDisplayWeb-Semibold.woff2") format("woff2");
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .hero--container {
+            max-width: 1800px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero--container {
+                margin: 0 auto;
+            }
+        }
+
+        .hero-wrapper-three .hero-group {
+            background-image: url('https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1201/hero/mobile_retina.jpg');
+            z-index: 99;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 110vw;
+        }
+
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-group {
+                background-image: url('https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1201/hero/desktop_retina.jpg');
+                background-size: 100% 100%;
+                background-position: center;
+                margin: auto;
+                background-repeat: no-repeat;
+                height: 31vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-wrapper-three .hero-group {
+                height: 515px;
+            }
+        }
+
+        .hero-wrapper-three .hero-group a {
+            display: block;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        .hero-wrapper-three .hero-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 70%;
+            align-items: center;
+            line-height: 1;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-header {
+                width: 100%;
+                margin-top: -1vw;
+                line-height: normal;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-wrapper-three .hero-header {
+                margin-top: -16px;
+            }
+        }
+
+        .hero-wrapper-three .hero-header-copy {
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            color: #ffffff;
+            font-size: 6.7vw;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-header-copy {
+                font-size: 2.9vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-wrapper-three .hero-header-copy {
+                font-size: 47px;
+            }
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-header-copy-mobile {
+                display: none;
+            }
+        }
+
+        .hero-wrapper-three .hero-header-copy-desktop {
+            display: none;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-header-copy-desktop {
+                display: block;
+            }
+        }
+
+        .hero-wrapper-three .hero-copy {
+            font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+            color: #561a49;
+            text-align: center;
+            font-size: 17.5vw;
+            margin: 2vw auto;
+            background-position: center;
+            background-size: 90%;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-copy {
+                letter-spacing: 0;
+                justify-content: center;
+                line-height: 6vw;
+                text-align: center;
+                padding: 1vw 0 3vw;
+                font-size: 7vw;
+                padding: 0;
+                /* width: 60%; */
+                width: 100%;
+                font-size: 7.8vw;
+                font-size: 10.5vw;
+                margin: 2vw auto .5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-wrapper-three .hero-copy {
+                line-height: 95px;
+                font-size: 132px;
+                margin: 32px auto 8px;
+            }
+        }
+
+        .hero-wrapper-three .hero-subcopy {
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            color: #ffffff;
+            text-align: center;
+            font-size: 17.5vw;
+            background-position: center;
+            background-size: 90%;
+            font-size: 5vw;
+            margin: -4vw auto 0;
+            text-transform: uppercase;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-subcopy {
+                letter-spacing: 0;
+                justify-content: center;
+                line-height: 6vw;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                font-size: 3.5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-wrapper-three .hero-subcopy {
+                line-height: 95px;
+                font-size: 55.5px;
+                margin: 0 0 8px;
+            }
+        }
+
+        .hero-wrapper-three .hero-cta {
+            margin: 0 auto;
+            font-weight: 700;
+            border: none;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-size: 3.5vw;
+            border-radius: 2px;
+            background: #561a49;
+            color: #fff;
+            background-size: cover;
+            width: 41vw;
+            line-height: 9vw;
+            padding: 0;
+            letter-spacing: 0.9vw;
+            text-indent: 1vw;
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-wrapper-three .hero-cta {
+                text-align: center;
+                line-height: normal;
+                letter-spacing: .3vw;
+                text-indent: .3vw;
+                width: 16vw;
+                padding: .3vw 0;
+                font-size: 1.2vw;
+                padding: .7vw 0;
+                width: 14vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .hero-wrapper-three .hero-cta {
+                width: 15.3vw;
+                padding: .7vw 0;
+                font-size: 1.1vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-wrapper-three .hero-cta {
+                padding: 14px 0;
+                line-height: normal;
+                width: 246px;
+                font-size: 17px;
+            }
+        }
+
+        .cta-link {
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cta-link-inner {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .cta-link-inner {
+                flex-direction: row;
+            }
+        }
+
+        .exceptions {
+            text-align: right;
+            color: #000000;
+            margin-top: 2px;
+            margin-bottom: 3px;
+            font-size: 12px;
+        }
+
+
+        @media only screen and (min-width: 667px) {
+            .exceptions {
+                margin-bottom: 7px;
+            }
+        }
+
+
+        .hero-group {
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            margin: 2px;
+            background-position: 100% 25%;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-group {
+                background-position: center;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            div.hero-8 {
+                background-position: bottom center !important;
+            }
+
+            div.hero-4,
+            div.hero-9 {
+                background-position: top center !important;
+            }
+        }
+
+        .hero-text {
+            text-align: center;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            width: 100%;
+            /* padding: 4vw 0; */
+            padding: 2vw 0 0 0;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-text {
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                position: relative;
+                height: 100%;
+                align-items: center;
+                bottom: 3vw;
+            }
+        }
+
+
+        @media only screen and (min-width: 1008px) {
+            .hero-text {
+                margin: 0;
+                padding: 2.2vw 0;
+                bottom: 7.5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-text {
+                padding: 0;
+                bottom: 72px;
+            }
+        }
+
+        .hero-header {
+            border-bottom: 1px solid #fffdf0;
+            width: 26vw;
+            margin: 0 auto;
+            letter-spacing: .7vw;
+            font-size: 2.5vw;
+            line-height: 5vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-header {
+                letter-spacing: .5vw;
+                line-height: 1.9vw;
+                padding: 3.2vw 0 0 0;
+                font-size: 1.5vw;
+                width: 15vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .hero-header {
+                font-size: 1.12vw;
+                width: 13vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-header {
+                font-size: 18px;
+                letter-spacing: 8px;
+                width: 210px;
+                line-height: 30px;
+                padding: 50px 0 0 0;
+            }
+        }
+
+        .hero-title {
+            color: #fffdf0;
+            font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 22vw;
+            margin: -3vw 0;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-title {
+                font-size: 13vw;
+                margin: -1.2vw 0 -3vw 0;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .hero-title {
+                font-size: 10vw;
+                margin: -1.2vw 0;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-title {
+                letter-spacing: 0;
+                font-size: 160px;
+                margin: -20px 0;
+            }
+        }
+
+        .hero-copy {
+            padding-bottom: 4vw;
+            font-size: 4.5vw;
+            letter-spacing: 1.5vw;
+            color: #fffdf0;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-copy {
+                letter-spacing: .75vw;
+                padding: 0 0 1.8vw 0;
+                font-size: 3vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .hero-copy {
+                width: 100%;
+                font-size: 2.5vw;
+                padding: 0 0 2.8vw 0;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-copy {
+                letter-spacing: .75px;
+                padding: 11px 0 22px 0;
+                font-size: 21px;
+                letter-spacing: 12px;
+                padding: 0 0 45px 0;
+                font-size: 40px
+            }
+        }
+
+        .ends-today-copy {
+            text-transform: uppercase;
+            font-weight: 400;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-size: 5.1vw;
+            letter-spacing: .27vw;
+            margin: 0 auto;
+            letter-spacing: 1.2vw;
+            text-align: center;
+            font-size: 5.5vw;
+            margin: 0;
+            /* padding: 0; */
+            padding-top: 1vw;
+            color: #ffffff !important;
+            visibility: hidden;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .ends-today-copy {
+                letter-spacing: .5vw;
+                font-size: 3vw;
+                display: flex;
+                position: relative;
+                letter-spacing: .2vw;
+                font-size: 2.4vw;
+                top: 6vw;
+                justify-content: center;
+                padding-top: 0;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .ends-today-copy {
+                letter-spacing: .2vw;
+                font-size: 2.5vw;
+                margin: 0 auto;
+                font-size: 2.3vw;
+                /* top: 3vw; */
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .ends-today-copy {
+                letter-spacing: 3.3px;
+                font-size: 40px;
+                top: 95px;
+            }
+        }
+
+        .main-copy {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            letter-spacing: .27vw;
+            margin: 0 auto;
+            letter-spacing: 0.5vw;
+            font-size: 3.7vw;
+            color: #ffffff;
+            padding: 0;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .main-copy {
+                font-weight: 700;
+                /* margin-top: -3vw; */
+                font-size: 2.2vw;
+                letter-spacing: 0.2vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .main-copy {
+                font-size: 2vw;
+                letter-spacing: .2vw;
+                margin-top: -3vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .main-copy {
+                font-size: 32px;
+                letter-spacing: 3.5px;
+                margin-top: -48px;
+            }
+        }
+
+        .main-title {
+            text-align: center;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+            font-size: 18vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 15vw;
+            line-height: 14.5vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .main-title {
+                flex-direction: row;
+                font-size: 7.3vw;
+                line-height: 8.5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .main-title {
+                font-size: 8vw;
+                line-height: 13.5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .main-title {
+                font-size: 143.5px;
+                line-height: 249px;
+            }
+        }
+
+        .bottom-offer {
+            margin-bottom: 2vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .bottom-offer {
+                margin-bottom: 0;
+            }
+        }
+
+        @media only screen and (min-width: 667px) {
+            .top-offer {
+                margin-right: 1.5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .top-offer {
+                margin-right: 24px;
+            }
+        }
+
+        .hero-cta {
+            background-color: #fffdf0;
+            color: #282828;
+            margin: 0 auto;
+            padding: 1.3vw 0;
+            font-size: 3.5vw;
+            margin-bottom: 3vw;
+            letter-spacing: .1vw;
+            font-weight: bold;
+            font-weight: 500;
+            border: none;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-size: 4vw;
+            font-weight: 400;
+            border-radius: 2px;
+            width: 30vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .hero-cta {
+                letter-spacing: .12vw;
+                margin-bottom: 2vw;
+                padding: .5vw 0;
+                width: 16vw;
+                font-size: 1.38vw;
+                letter-spacing: .01vw;
+                margin-bottom: 3.5vw;
+                font-size: 2vw;
+                width: 16vw;
+                padding: 1vw 0;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .hero-cta {
+                font-size: 1.2vw;
+                width: 12.5vw;
+                padding: .6vw 0;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .hero-cta {
+                font-size: 18px;
+                letter-spacing: .25px;
+                margin-bottom: 55px;
+                padding: 8px 0;
+                width: 255px;
+                font-size: 22px;
+                width: 200px;
+                padding: 10px 0;
+            }
+        }
+
+        .shop-now-cta {
+            z-index: 999;
+            background: #63abd1;
+            color: white;
+            border-radius: 2px;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            font-size: 4vw;
+            letter-spacing: 0.06vw;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .shop-now-cta {
+                z-index: 999;
+                background: #63abd1;
+                color: white;
+                padding: .7vw 0;
+                font-size: 16px;
+                letter-spacing: .25px;
+                font-weight: 400;
+                width: 17vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .shop-now-cta {
+                z-index: 999;
+                background: #63abd1;
+                color: white;
+                justify-content: center;
+                align-self: center;
+                padding: 9px 0;
+                width: 14vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .shop-now-cta {
+                width: 200px;
+            }
+        }
+
+        .shop-now-cta:hover {
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .cta-link {
+            width: 100%;
+            position: relative;
+            bottom: 26.5vw;
+            display: flex;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .cta-link {
+                margin: 0 auto;
+                bottom: 11vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .cta-link {
+                bottom: 16.5vw;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .cta-link {
+                bottom: 185px;
+            }
+        }
+
+        .ends-today-copy {
+            color: #561a49;
+        }
+
+        .hero-text {
+            color: #561a49;
+        }
+
+        /*IE only CSS*/
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+
+            /* IE10+ CSS styles go here */
+            .ends-today-copy {
+                color: #561a49;
+            }
+
+            .hero-text {
+                color: #561a49;
+            }
+        }
+
+        /* Border line dividing the different promos*/
+        .horizontal-line {
+            border-top: 2px solid white;
+            width: 172px;
+            width: 42vw;
+            margin: 4vw auto 3vw auto;
+        }
+
+        @media only screen and (min-width: 667px) {
+            .horizontal-line {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 667px) {
+            .vertical-line {
+                border: 1px solid #ffffff;
+                width: 7.6vw;
+                transform: rotate(90deg);
+                margin-top: 4vw;
+            }
+        }
+
+        @media only screen and (min-width: 667px) {
+            .vertical-line {
+                margin: 1.5vw 0 0 0;
+                width: 7.8vw;
+            }
+        }
+
+        @media only screen and (min-width: 1008px) {
+            .vertical-line {
+                width: 7.2vw;
+                margin: 4.2vw 0 0 0;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            .vertical-line {
+                width: 130px;
+                margin: 68px 0 0 0;
+            }
+        }
+    </style>
+
+</art:head>
+<art:body>
+    <div class="hero-wrapper-three optimizely-group hero--container">
+        <div class="hero-group track-group" id="hph-framedandcanvas60-sitewide50-CTA">
+            <a href="/gallery/id--b100/subjects-posters.htm?CAMPAIGN_THEME=60framedcanvas_50sw_1201042018">
+                <p class="ends-today-copy">ENDS TODAY</p>
+                <div class="hero-text">
+
+                    <div class="hero-text-left">
+                        <p class="main-title">
+                            <span class="top-offer top-offer-left">60%</span>
+                            <span class="bottom-offer bottom-offer-left">OFF</span>
+                        </p>
+                        <p class="main-copy">ALL FRAMED & CANVAS ART</p>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="hero-text-right">
+                        <div class="horizontal-line"></div>
+                        <p class="main-title">
+                            <span class="top-offer top-offer-right">50%</span>
+                            <span class="bottom-offer bottom-offer-right">OFF</span>
+                        </p>
+                        <p class="main-copy">EVERYTHING ELSE*</p>
+                    </div>
+                </div>
+                <div class="cta-link">
+                    <div class="shop-now-cta hero-cta">SHOP NOW</div>
+                </div>
+            </a>
+        </div>
+        <div class="exceptions">*Minus exceptions</div>
+    </div>
+</art:body>
