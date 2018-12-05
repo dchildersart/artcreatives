@@ -40,7 +40,7 @@ gulp.task('sass', function () {
 gulp.task('sass-lint', function () {
     return gulp.src([
         './**/*.scss',
-        //'!sass/dont-watch-this.scss'
+        '!./node_modules/**/*.scss'
     ])
     .pipe(sassLint())
     .pipe(sassLint.format())
