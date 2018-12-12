@@ -1,0 +1,135 @@
+.art-subhero-wrapper {
+    max-width: 1800px;
+    margin: 5px auto 0;
+    font-family: 'CalibreFamily',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    .subhero-content {}
+
+    a {
+        text-decoration: none;
+    }
+
+    .subhero-text {
+        height: 12.4vw;
+        position: relative;
+        background: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1212/eGiftCard/subhero/US-Desktop_Optimized.jpg");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .subhero {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            float: right;
+            text-align: center;
+            margin-top: -5%;
+        }
+
+        h3 {
+            font-size: 21px;
+            color: #fff6db;
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        h2 {
+            font-weight: 400;
+            text-indent: 0.1vw;
+            color: #ffffff;
+            margin: 0;
+            font-size: 48px;
+            font-family: 'DomaineDisplay',Helvetica,Arial,sans-serif;
+        }
+
+        .subhero-text-cta {
+            color: #81cbd1;
+            font-weight: 700;
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: 4px;
+            border-bottom: 1px solid #81cbd1;
+            margin: 0 auto;
+        }
+    }
+    // Over 1800px
+    @media screen and (min-width: 1800px) {
+        .subhero-text {
+            height: 232px;
+        }
+    }
+    // Between Desktop and Mobile
+    @media (min-width: 668px) and (max-width: 1600px) {
+        .subhero {
+            h3 {
+                font-size: 1.3vw;
+            }
+
+            h2 {
+                font-size: 3vw;
+            }
+
+            .subhero-text-cta {
+                font-size: 1.1vw;
+            }
+        }
+    }
+    // Mobile Breakpoint
+    @media screen and (max-width: 667px) {
+        .subhero-content {
+            display: block;
+            position: relative;
+            text-decoration: none;
+        }
+
+        .subhero-media {
+            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1212/eGiftCard/subhero/US-Mobile-Optimized.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            height: 89vw;
+        }
+
+        .subhero-text {
+            text-align: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: none;
+
+            .subhero {
+                width: 100%;
+                justify-content: center;
+                align-items: flex-start;
+                margin-top: 7%;
+
+                div {
+                    margin-top: 0;
+                }
+
+                h3 {
+                    font-size: 5vw;
+                }
+
+                h2 {
+                    font-size: 11.5vw;
+                }
+
+                .subhero-text-cta {
+                    font-size: 4.5vw;
+                }
+            }
+        }
+    }
+}

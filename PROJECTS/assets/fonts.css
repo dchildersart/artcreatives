@@ -1,4 +1,68 @@
 @font-face {
+    font-family: CalibreFamily;
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.eot);
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.woff) format("woff"),url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: CalibreFamily;
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.eot);
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.woff) format("woff"),url(https://www.art.com/cdn/fonts/CalibreWeb-Semibold.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: CalibreFamily;
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Medium.eot);
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Medium.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/CalibreWeb-Medium.woff) format("woff"),url(https://www.art.com/cdn/fonts/CalibreWeb-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: CalibreFamily;
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Regular.eot);
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Regular.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/CalibreWeb-Regular.woff) format("woff"),url(https://www.art.com/cdn/fonts/CalibreWeb-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: CalibreFamily;
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Light.eot);
+    src: url(https://www.art.com/cdn/fonts/CalibreWeb-Light.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/CalibreWeb-Light.woff) format("woff"),url(https://www.art.com/cdn/fonts/CalibreWeb-Light.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DomaineText;
+    src: url(https://www.art.com/cdn/fonts/DomaineTextWeb-Regular.eot);
+    src: url(https://www.art.com/cdn/fonts/DomaineTextWeb-Regular.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/DomaineTextWeb-Regular.woff) format("woff"),url(https://www.art.com/cdn/fonts/DomaineTextWeb-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DomaineDisplay;
+    src: url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.eot);
+    src: url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.woff) format("woff"),url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DomaineDisplay;
+    src: url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.eot);
+    src: url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.eot?#iefix) format("embedded-opentype"),url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.woff) format("woff"),url(https://www.art.com/cdn/fonts/DomaineDisplayWeb-Semibold.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
   font-family: 'Rockwell';
   src: url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.eot') format('eot');
   src: url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.eot?#iefix') format('embedded-opentype'),
