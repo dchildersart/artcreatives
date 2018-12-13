@@ -84,6 +84,10 @@
         letter-spacing: 0.3vw;
         border: none;
     }
+
+    .exceptions > div {
+        float: right;
+    }
     // Between Desktop and Mobile
     @media (min-width: 668px) and (max-width: 1600px) {
         h1 {
@@ -159,5 +163,14 @@
             font-size: 5.2vw;
             margin: 6vw 0;
         }
+    }
+}
+
+.exceptions {
+    max-width: 1800px;
+    margin: 0 auto;
+
+    p {
+        text-align: right;
     }
 }

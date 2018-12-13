@@ -52,12 +52,12 @@
 
     h1 {
         font-size: 150px;
-        margin-top: 0;
+        margin-top: -10px;
     }
 
     h2 {
-        font-size: 82px;
-        margin-top: -1%;
+        font-size: 76px;
+        margin-top: -.5%;
         margin-bottom: 2%;
 
         sup {
@@ -69,15 +69,17 @@
 
     h3 {
         text-transform: uppercase;
-        font-weight: 200;
+        font-weight: 400;
         color: #6a1e59;
-        font-size: 35px;
+        font-size: 32px;
+        letter-spacing: 4px;
     }
 
     h4 {
         color: #FFF;
         font-size: 39px;
         font-weight: 400;
+        margin-top: 10px;
     }
 
     .hero-cta {
@@ -107,7 +109,7 @@
         }
 
         h3 {
-            font-size: 2.5vw;
+            font-size: 2vw;
         }
 
         h4 {
@@ -171,5 +173,14 @@
             padding: 22px 100px;
             letter-spacing: 0.6vw;
         }
+    }
+}
+
+.exceptions {
+    max-width: 1800px;
+    margin: 0 auto;
+
+    p {
+        text-align: right;
     }
 }
