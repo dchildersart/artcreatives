@@ -1,8 +1,12 @@
-.hero--container {
+.art-hero-wrapper {
     max-width: 1800px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0 auto;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .hero-group {
@@ -15,7 +19,7 @@
 .hero-big-text {
     display: flex;
     text-align: center;
-    background-color: #05432a;
+    background-color: #1e1642;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -23,7 +27,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 4px solid #05432a;
+    /* border: 4px solid #05432a; */
 }
 
 .hero-image {
@@ -34,13 +38,12 @@
 .hero-image img {
     align-self: center;
     width: 100%;
-    height: 100%;
 }
 
 .hero-copy {
     font-family: 'DomaineDisplay',Helvetica,Arial,sans-serif;
-    font-size: 58px;
-    line-height: 71px;
+    font-size: 90px;
+    line-height: 76px;
     color: #fff;
     text-align: center;
     margin: 9px;
@@ -88,8 +91,8 @@
 /* Breakpoint designed to 1600px and 560px */
 @media screen and (max-width: 1800px) {
     .hero-copy {
-        font-size: 3vw;
-        line-height: 4vw;
+        font-size: 4.8vw;
+        line-height: 4.6vw;
         width: 100%;
     }
 
