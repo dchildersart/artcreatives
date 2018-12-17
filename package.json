@@ -1,0 +1,33 @@
+{
+  "name": "artcreatives",
+  "version": "1.0.0",
+  "description": "This repository is used to store and update the common creatives used by the Creative Dev team at Art.com",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "connect": "^3.6.6",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-server-livereload": "^1.9.2",
+    "node-sass": "^4.10.0",
+    "sass-lint": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dchildersart@github.com/dchildersart/artcreatives.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchildersart/artcreatives/issues"
+  },
+  "homepage": "https://github.com/dchildersart/artcreatives#readme"
+}
