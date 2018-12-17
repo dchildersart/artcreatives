@@ -5,6 +5,7 @@ This repository is used to store and update the common creatives used by the Cre
 ## INSTALLATION
 
 - npm i
+- npm install gulp -g
 - CD to root folder, run 'gulp dev'
   - This will run BrowserSync, Sass, and Lint
   - New window should open in Browser
@@ -14,6 +15,9 @@ This repository is used to store and update the common creatives used by the Cre
 
 - Copy directory of desired template into the respective project folder
 - Update that index.html file
+- Naming convention for files are the date the creative goes live
+and the title/description of the creative separated by underscores.
+This will be reflected as the title on the gallery page.
 - Only update files in template that optimize/fix any code
 
 
