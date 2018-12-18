@@ -6,6 +6,7 @@
 
     a {
         text-decoration: none;
+        width: 100%;
     }
 }
 
@@ -141,9 +142,9 @@
 ##Screen = B/w 768px
 */
 @media only screen and (max-width: 768px) {
+    // Display Flex Column wasn't working for a older version of Safari - 10.03
     .hero-group {
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
 
     .hero-big-text {
