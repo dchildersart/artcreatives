@@ -1,0 +1,145 @@
+/* shop top categories */
+.gridInline-item:last-child {
+    display: none;
+}
+@media screen and (min-width: 667px) {
+    .gridInline-item:last-child {
+        display: block;
+    }
+}
+/* shop top categories */
+#featuredCollections * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#featuredCollections.valueProp-wrapper {
+    max-width: 1800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (min-width: 767px) {
+    #featuredCollections.valueProp-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+}
+
+#featuredCollections .valueProp-header {
+    font-family: DomaineDisplay, 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    color: #6e747a;
+}
+
+#featuredCollections .valueProp {
+    margin-bottom: 30px;
+    background-color: #f7f7f7;
+}
+
+#featuredCollections .valueProp a {
+    text-decoration: none;
+    display: block;
+}
+@media screen and (min-width: 767px) {
+    #featuredCollections .valueProp {
+        flex-basis: 31%;
+        margin-bottom: 0;
+    }
+
+    #featuredCollections .valueProp-header {
+        flex-basis: 100%;
+    }
+}
+
+#featuredCollections .valueProp-text {
+    padding: 10px 0 40px;
+}
+
+#featuredCollections .valueProp-image {
+    width: 100%;
+}
+
+#featuredCollections .valueProp-tagline {
+    font-family: BebasFamily, BebasNeue, 'Bebas Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    margin: 0;
+    color: #404040;
+}
+
+#featuredCollections .valueProp-title {
+    font-family: DomaineDisplay, 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin: 0 0 3px;
+    color: #3e3e3e;
+}
+
+#featuredCollections .valueProp-subcopy {
+    font-family: BebasFamily, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #3e3e3e;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#featuredCollections #hp-featured-framedCanvas .valueProp-title {
+    letter-spacing: 0;
+}
+@media screen and (min-width: 767px) {
+    #featuredCollections .valueProp-title {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+}
+@media screen and (min-width: 1008px) {
+    #featuredCollections .valueProp-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+#featuredCollections .valueProp-copy {
+    font-family: "CalibreFamily", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto 25px;
+    padding: 0 20px;
+    color: #333;
+}
+@media screen and (min-width: 767px) {
+    #featuredCollections .valueProp-copy {
+        font-size: 2.4vw;
+        line-height: 2.8vw;
+        max-width: 430px;
+    }
+}
+@media screen and (min-width: 1008px) {
+    #featuredCollections .valueProp-copy {
+        font-size: 21px;
+        line-height: 26px;
+        max-width: 430px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    #featuredCollections .valueProp-copy {
+        margin: 0 auto 20px;
+        padding: 0 50px;
+    }
+}
+
+#featuredCollections .valueProp-cta {
+    letter-spacing: 1.8px;
+    border-bottom: 1px solid;
+    width: 76px;
+    padding-bottom: 4px;
+    margin: 0 auto;
+    font-size: 13px;
+    font-family: "CalibreFamily", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    color: #3e3e3e;
+}

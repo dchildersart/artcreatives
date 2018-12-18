@@ -63,6 +63,52 @@
 }
 
 @font-face {
+    font-family: BebasNeueRegular;
+    src: url(https://www.art.com/cdn/fonts/BebasNeue-webfont.eot);
+    src: local('?'),url(https://www.art.com/cdn/fonts/BebasNeue-webfont.woff) format('woff'),url(https://www.art.com/cdn/fonts/BebasNeue-webfont.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: BebasFamily;
+    src: url(https://www.art.com/cdn/fonts/BebasNeue-Bold.eot);
+    src: local('?'),url(https://www.art.com/cdn/fonts/BebasNeue-Bold.woff) format('woff'),url(https://www.art.com/cdn/fonts/BebasNeue-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BebasFamily;
+    src: url(https://www.art.com/cdn/fonts/BebasNeue-Regular.eot);
+    src: local('?'),url(https://www.art.com/cdn/fonts/BebasNeue-Regular.woff) format('woff'),url(https://www.art.com/cdn/fonts/BebasNeue-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BebasFamily;
+    src: url(https://www.art.com/cdn/fonts/BebasNeue-Book.eot);
+    src: local('?'),url(https://www.art.com/cdn/fonts/BebasNeue-Book.woff) format('woff'),url(https://www.art.com/cdn/fonts/BebasNeue-Book.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BebasFamily;
+    src: url(https://www.art.com/cdn/fonts/BebasNeue-Light.eot);
+    src: local('?'),url(https://www.art.com/cdn/fonts/BebasNeue-Light.woff) format('woff'),url(https://www.art.com/cdn/fonts/BebasNeue-Light.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BebasFamily;
+    src: url(https://www.art.com/cdn/fonts/BebasNeue-Thin.eot);
+    src: local('?'),url(https://www.art.com/cdn/fonts/BebasNeue-Thin.woff) format('woff'),url(https://www.art.com/cdn/fonts/BebasNeue-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
   font-family: 'Rockwell';
   src: url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.eot') format('eot');
   src: url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.eot?#iefix') format('embedded-opentype'),
