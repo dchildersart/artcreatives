@@ -5,6 +5,8 @@ This repository is used to store and update the common creatives used by the Cre
 ## INSTALLATION
 
 - npm i
+- run 'sudo npm install gulp -g' to install Gulp globally
+  - This will prompt you to enter your computer login password, not GitHub password
 - CD to root folder, run 'gulp dev'
   - This will run BrowserSync, Sass, and Lint
   - New window should open in Browser
