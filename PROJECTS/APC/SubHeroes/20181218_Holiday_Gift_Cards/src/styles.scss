@@ -1,0 +1,119 @@
+.apc-holiday-gift-cards-wrapper {
+    position: relative;
+    max-width: 1008px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+    }
+
+    .hero-text-container {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+        height: 100%;
+        transform: translate(0%, -50%);
+        text-align: center;
+    }
+
+    .hero-cta {
+        display: inline-block;
+        position: relative;
+        padding: 10px 26px;
+        transition: box-shadow 0.5s ease;
+        background-color: #440954;
+        color: #ffffff;
+        font-family: 'FuturaStd-Book', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 200;
+        margin-top: 3%;
+    }
+
+    .hero-cta:hover {
+        transition: box-shadow 0.2s ease-out;
+        color: #440954;
+        background-color: #ffffff;
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        color: #ffffff;
+    }
+
+    h1 {}
+
+    h2 {
+        color: #ffffff;
+        font-family: 'Rockwell','Futura','Apercu','Helvetica Neue',HelveticaNeue,Helvetica,Arial,sans-serif;
+        font-size: 5vw;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 2px rgba(54, 54, 54, .4);
+    }
+
+    h3 {
+        color: #fff0c7;
+        letter-spacing: 1px;
+        font-family: 'FuturaStd-Medium','Futura','Apercu','Helvetica Neue',HelveticaNeue,Helvetica,Arial,sans-serif;
+        text-shadow: 2px 2px 2px rgba(54, 54, 54, .4);
+    }
+    // Greater than 1008px
+    @media only screen and (min-width: 1008px) {
+        h2 {
+            font-size: 45px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .hero-cta {
+            font-size: 16px;
+        }
+    }
+    // Between Desktop and Mobile.
+    @media (min-width: 667px) and (max-width: 1008px) {
+        h2 {
+            font-size: 4.3vw;
+        }
+
+        h3 {
+            font-size: 1.8vw;
+        }
+
+        .hero-cta {
+            font-size: 1.8vw;
+        }
+    }
+    // Mobile (Design) Breakpoint
+    @media screen and (max-width: 667px) {
+        .hero-text-container {
+            width: 48%;
+        }
+
+        h2 {
+            font-size: 6.5vw;
+        }
+
+        h3 {
+            font-size: 2.7vw;
+            margin: 1% 0;
+        }
+
+        .hero-cta {
+            padding: 1.5vw 5vw;
+            font-size: 18px;
+        }
+    }
+}

@@ -6,6 +6,7 @@
 
     a {
         text-decoration: none;
+        width: 100%;
     }
 }
 
@@ -19,7 +20,7 @@
 .hero-big-text {
     display: flex;
     text-align: center;
-    background-color: #1e1642;
+    background-color: #426571;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -38,6 +39,7 @@
 .hero-image img {
     align-self: center;
     width: 100%;
+    height: 100%;
 }
 
 .hero-copy {
@@ -141,9 +143,9 @@
 ##Screen = B/w 768px
 */
 @media only screen and (max-width: 768px) {
+    // Display Flex Column wasn't working for a older version of Safari - 10.03
     .hero-group {
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
 
     .hero-big-text {

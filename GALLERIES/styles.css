@@ -1,0 +1,15 @@
+.hero-unit {
+  text-align: right;
+  padding: 40px 0px;
+}
+
+.hero-unit > iframe {
+    border: none;
+    margin-top: 20px;
+}
+
+.hero-unit h1 {
+  padding-right: 10%;
+  font-family: Helvetica;
+  color: #666;
+}

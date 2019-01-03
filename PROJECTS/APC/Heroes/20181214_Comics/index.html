@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="./build/styles.css" />
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       /**
        * detect IE
        * returns version of IE or false if browser is not Internet Explorer
@@ -56,7 +56,7 @@
 
       var clickThru1 = document.getElementById("posters-click-thru"); //grab the element
       console.log(clickThru1);
-      clickThru1.onclick = function() {
+      clickThru1.onclick = function () {
         console.log("Click 1 Fired");
         ga(
           "send",
@@ -71,7 +71,7 @@
 
       var clickThru2 = document.getElementById("comics-click-thru"); //grab the element
       console.log(clickThru2);
-      clickThru2.onclick = function() {
+      clickThru2.onclick = function () {
         console.log("Click 2 Fired");
         ga(
           "send",
@@ -90,21 +90,12 @@
 <body>
   <div class="apc-comics-wrapper">
     <picture>
-      <source
-        media="(min-width: 668px)"
-        srcset="https://cache1.allpostersimages.com/images/homepage/HERO/2018/1220/comics_posters_desktop.jpg"
-        alt="Posters & More as low as $3.98. Movies video games, and more, all starting under $4. 50% Off Comic Art. Super shopping at heroic prices. Shop Now."
-      />
-      <source
-        media="(max-width: 667px)"
-        srcset="https://cache1.allpostersimages.com/images/homepage/HERO/2018/1220/comics_posters_mobile.jpg"
-        alt="Posters & More as low as $3.98. Movies video games, and more, all starting under $4. 50% Off Comic Art. Super shopping at heroic prices. Shop Now."
-      />
-      <img
-        id="hero-image"
-        src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/1220/comics_posters_desktop.jpg"
-        alt="Posters & More as low as $3.98. Movies video games, and more, all starting under $4. 50% Off Comic Art. Super shopping at heroic prices. Shop Now."
-      />
+      <source media="(min-width: 668px)" srcset="https://cache1.allpostersimages.com/images/homepage/HERO/2018/1220/comics_posters_desktop.jpg"
+        alt="Posters & More as low as $3.98. Movies video games, and more, all starting under $4. 50% Off Comic Art. Super shopping at heroic prices. Shop Now." />
+      <source media="(max-width: 667px)" srcset="https://cache1.allpostersimages.com/images/homepage/HERO/2018/1220/comics_posters_mobile.jpg"
+        alt="Posters & More as low as $3.98. Movies video games, and more, all starting under $4. 50% Off Comic Art. Super shopping at heroic prices. Shop Now." />
+      <img id="hero-image" src="https://cache1.allpostersimages.com/images/homepage/HERO/2018/1220/comics_posters_desktop.jpg"
+        alt="Posters & More as low as $3.98. Movies video games, and more, all starting under $4. 50% Off Comic Art. Super shopping at heroic prices. Shop Now." />
     </picture>
     <div class="apc-text-wrapper">
       <div class="hero-text-container">
