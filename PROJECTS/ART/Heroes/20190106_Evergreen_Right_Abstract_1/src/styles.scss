@@ -150,7 +150,7 @@
     @media screen and (max-width: 667px) {
         .hero-group {
             height: 100vw;
-            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0106/hero/mobile-bg-SW_v2-optimized.jpg");
+            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0106/hero/mobile-bg-SW_v3-optimized.jpg");
         }
 
         h1 {
@@ -178,7 +178,7 @@
     @media screen and (width: 667px) {
         .hero-group {
             height: 100vw;
-            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0106/hero/mobile-bg-SW_v2-optimized.jpg");
+            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0106/hero/mobile-bg-SW_v3-optimized.jpg");
         }
 
         h1 {
@@ -206,6 +206,9 @@
 .exceptions-hero {
     max-width: 1800px;
     margin: 0 auto;
+    @media screen and (max-width: 667px) {
+        margin-bottom: 4px;
+    }
 
     p {
         text-align: right;

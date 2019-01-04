@@ -189,6 +189,9 @@
 .exceptions-hero {
     max-width: 1800px;
     margin: 0 auto;
+    @media screen and (max-width: 667px) {
+        margin-bottom: 4px;
+    }
 
     p {
         text-align: right;
