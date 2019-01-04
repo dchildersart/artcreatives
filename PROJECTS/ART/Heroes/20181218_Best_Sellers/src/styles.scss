@@ -46,14 +46,9 @@
     font-family: 'DomaineDisplay',Helvetica,Arial,sans-serif;
     font-size: 90px;
     line-height: 76px;
-    color: #fff;
+    color: #ffecb4;
     text-align: center;
     margin: 9px;
-    background: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2018/1113/gold-foil/bg-text-3-500.jpg");
-    background-position: center;
-    background-size: 90%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     width: 100%;
 }
 
@@ -176,12 +171,5 @@
     .hero-subcopy {
         font-size: 17px;
         width: 76%;
-    }
-}
-/* IE10+ CSS styles go here */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .hero-copy {
-        background: none;
-        color: #ccb96f;
     }
 }
