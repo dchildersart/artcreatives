@@ -4,10 +4,10 @@
   font-family: 'Rockwell';
   src: url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.eot') format('eot');
   src: url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.svg#Rockwell-ExtraBold-Bold') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.svg#Rockwell-ExtraBold-Bold') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/Rockwell-ExtraBold-Bold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
@@ -18,10 +18,10 @@
   font-family: 'FuturaStd-Book';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Book.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,10 +30,10 @@
   font-family: 'FuturaStd-HeavyObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.svg#FuturaStd-HeavyOblique') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.svg#FuturaStd-HeavyOblique') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-HeavyOblique.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
@@ -42,8 +42,8 @@
   font-family: 'FuturaStd-CondensedExtraBold';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.woff') format('woff'), url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.svg#FuturaStd-CondensedExtraBd') format('svg'), url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.woff') format('woff'), url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.svg#FuturaStd-CondensedExtraBd') format('svg'), url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedExtraBd.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -52,10 +52,10 @@
   font-family: 'FuturaStd-Heavy';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Heavy.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
@@ -64,10 +64,10 @@
   font-family: 'FuturaStd-CondensedBold';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.svg#FuturaStd-CondensedBold') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.svg#FuturaStd-CondensedBold') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -76,10 +76,10 @@
   font-family: 'FuturaStd-LightObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.svg#FuturaStd-LightOblique') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.svg#FuturaStd-LightOblique') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-LightOblique.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -88,10 +88,10 @@
   font-family: 'FuturaStd-CondensedLightObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.svg#FuturaStd-CondensedLightObl') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.svg#FuturaStd-CondensedLightObl') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLightObl.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -100,10 +100,10 @@
   font-family: 'FuturaStd-ExtraBold';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.svg#FuturaStd-ExtraBold') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.svg#FuturaStd-ExtraBold') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
@@ -112,9 +112,9 @@
   font-family: 'FuturaStd-CondensedObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.woff') format('woff'), url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.svg#FuturaStd-CondensedOblique') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.woff') format('woff'), url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.svg#FuturaStd-CondensedOblique') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedOblique.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
@@ -123,10 +123,10 @@
   font-family: 'FuturaStd-ExtraBoldOblique';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.svg#FuturaStd-ExtraBoldOblique') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.svg#FuturaStd-ExtraBoldOblique') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-ExtraBoldOblique.ttf') format('truetype');
   font-weight: 800;
   font-style: italic;
 }
@@ -135,10 +135,10 @@
   font-family: 'FuturaStd-CondensedBoldObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.svg#FuturaStd-CondensedBoldObl') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.svg#FuturaStd-CondensedBoldObl') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedBoldObl.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }
@@ -147,10 +147,10 @@
   font-family: 'FuturaStd-MediumObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.svg#FuturaStd-MediumOblique') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.svg#FuturaStd-MediumOblique') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-MediumOblique.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
@@ -159,10 +159,10 @@
   font-family: 'FuturaStd-CondensedExtraBdObl';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.svg#FuturaStd-CondExtraBoldObl') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.svg#FuturaStd-CondExtraBoldObl') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondExtraBoldObl.ttf') format('truetype');
   font-weight: 800;
   font-style: italic;
 }
@@ -171,10 +171,10 @@
   font-family: 'FuturaStd-Light';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -183,10 +183,10 @@
   font-family: 'FuturaStd-Medium';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -195,10 +195,10 @@
   font-family: 'FuturaStd-CondensedLight';
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.eot');
   src: url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.svg#FuturaStd-CondensedLight') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.svg#FuturaStd-CondensedLight') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/FuturaStd-CondensedLight.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -209,10 +209,10 @@
   font-family: 'Futura-CondensedMedium';
   src: url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.eot');
   src: url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.svg#Futura-CondensedMedium') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.svg#Futura-CondensedMedium') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedMedium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -221,10 +221,10 @@
   font-family: 'Futura-MediumItalic';
   src: url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.eot');
   src: url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.svg#Futura-MediumItalic') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.svg#Futura-MediumItalic') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/Futura-MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
@@ -233,10 +233,10 @@
   font-family: 'Futura-Md';
   src: url('https://www.allposters.com/cdn/fonts/Futura-Medium.eot');
   src: url('https://www.allposters.com/cdn/fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Medium.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Medium.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Medium.svg#Futura-Medium') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Medium.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/Futura-Medium.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/Futura-Medium.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/Futura-Medium.svg#Futura-Medium') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/Futura-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -245,10 +245,10 @@
   font-family: 'Futura-CondensedExtraBold';
   src: url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.eot');
   src: url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.svg#Futura-CondensedExtraBold') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.svg#Futura-CondensedExtraBold') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/Futura-CondensedExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
@@ -257,10 +257,10 @@
   font-family: 'Futura-Bold';
   src: url('https://www.allposters.com/cdn/fonts/Futura-Bold.eot');
   src: url('https://www.allposters.com/cdn/fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Bold.woff2') format('woff2'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Bold.woff') format('woff'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Bold.svg#Futura-Bold') format('svg'),
-  url('https://www.allposters.com/cdn/fonts/Futura-Bold.ttf') format('truetype');
+    url('https://www.allposters.com/cdn/fonts/Futura-Bold.woff2') format('woff2'),
+    url('https://www.allposters.com/cdn/fonts/Futura-Bold.woff') format('woff'),
+    url('https://www.allposters.com/cdn/fonts/Futura-Bold.svg#Futura-Bold') format('svg'),
+    url('https://www.allposters.com/cdn/fonts/Futura-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
