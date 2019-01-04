@@ -5,6 +5,8 @@
     margin: 0 auto;
     text-align: center;
     cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     .hero-text-container {
         text-align: center;
