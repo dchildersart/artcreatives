@@ -51,7 +51,7 @@
       if (detectIE() != false && isMobile()) {
         console.log(" ******* ");
         document.getElementById("hero-image").src =
-          "https://cache1.allpostersimages.com/images/homepage/HERO/2019/0113/evergreen_swishy_mobile_retina.jpg";
+          "https://cache1.allpostersimages.com/images/homepage/HERO/2019/0119/mlk_mobile_retina.jpg";
       }
 
       var clickThru1 = document.getElementById("click-thru"); //grab the element
@@ -62,11 +62,11 @@
           "send",
           "event",
           "Home",
-          "hph-evergreen-sitewide-swishy-shopnow-CTA",
-          "45% Off Everything We Sell. Shop Now."
+          "hph-mlk-sale-50-shopnow-CTA",
+          "Long Weekend Winter Sale. 50% Off Everything. Minus Exceptions. Shop Now."
         );
         window.location.href =
-          "https://www.allposters.com/-st/Subjects-Posters_c41633_.htm?CAMPAIGN_THEME=sw_evergreen_45_113142019";
+          "https://www.allposters.com/-st/Subjects-Posters_c41633_.htm?CAMPAIGN_THEME=mlk_2019";
       };
 
 
@@ -76,19 +76,20 @@
 
 <body>
 
-  <div class="apc-evergreen-wrapper" id="click-thru">
+  <div class="apc-mlk-wrapper" id="click-thru">
     <picture>
-      <source media='(min-width: 668px)' srcset='https://cache1.allpostersimages.com/images/homepage/HERO/2019/0113/evergreen_swishy_desktop.jpg' />
-      <source media='(max-width: 667px)' srcset='https://cache1.allpostersimages.com/images/homepage/HERO/2019/0113/evergreen_swishy_mobile_retina.jpg' />
-      <img id="hero-image" src='https://cache1.allpostersimages.com/images/homepage/HERO/2019/0113/evergreen_swishy_desktop.jpg' />
+      <source media='(min-width: 668px)' srcset='https://cache1.allpostersimages.com/images/homepage/HERO/2019/0119/mlk_desktop.jpg' />
+      <source media='(max-width: 667px)' srcset='https://cache1.allpostersimages.com/images/homepage/HERO/2019/0119/mlk_mobile_retina.jpg' />
+      <img id="hero-image" src='https://cache1.allpostersimages.com/images/homepage/HERO/2019/0119/mlk_desktop.jpg' alt="Long Weekend Winter Sale. 50% Off Everything. Minus Exceptions. Shop Now." />
     </picture>
     <div class="hero-text-container">
-      <div>
-        <p class="discount">45% Off</p>
-        <p class="everything-copy">Everything We Sell*</p>
-        <div class="shop-now-cta">shop now</div>
-      </div>
+      <!-- FOR 1/21 - SWAP OUT BELOW P TAG FOR THIS FINAL DAY
+        <p class="hero-cart-promo"><span class="final-day">Final Day:</span> Long Weekend Winter Sale</p> -->
+      <!-- FOR 1/19 - 1/20 -->
+      <p class="hero-cart-promo">Long Weekend Winter Sale</p>
+      <p class="discount">50% Off Everything<span class="discount-hero-asterisk">*</span></p>
+      <div class="shop-now-cta">Shop Now</div>
+      <div class="exceptions"><sup class="exceptions-hero-asterisk">*</sup>Minus Exceptions</div>
     </div>
-    <p class="exceptions">*Minus Exceptions</p>
   </div>
 </body>
