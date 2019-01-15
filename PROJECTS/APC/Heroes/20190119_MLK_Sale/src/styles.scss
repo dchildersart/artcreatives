@@ -86,12 +86,11 @@
             display: inline-block;
             padding: 2.5vw 10vw;
             margin: 0;
-            transition: 0.3s all;
+            transition: 0.5s all;
             letter-spacing: 0.5px;
 
             &:hover {
-                background-color: #142421;
-                color: #99ffea;
+                letter-spacing: 2.7px;
             }
         }
 
