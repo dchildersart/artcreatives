@@ -1,0 +1,184 @@
+// Mobile (Design)
+.apc-sports-football-wrapper {
+    position: relative;
+    max-width: 1008px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    img {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        color: #ffffff;
+    }
+
+    picture {
+        display: block;
+    }
+
+    .hero-text-container {
+        text-align: center;
+        position: absolute;
+        top: 22%;
+        left: 0%;
+        right: 0%;
+        bottom: 0;
+
+        .hero-headline {
+            color: #fff;
+            text-transform: uppercase;
+            margin: -2vw 0 2.3vw 0 !important;
+            font-size: 9vw;
+            line-height: 6.5vw;
+            font-family: 'Rockwell', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            background-position: center;
+
+            .hero-headline-hero-asterisk {
+                font-size: 6vw;
+                position: relative;
+                left: 0.5vw;
+                top: -7vw;
+            }
+        }
+
+        .hero-body-copy {
+            font-family: "FuturaStd-Medium", "Futura-Bold", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+            font-size: 2.8vw;
+            width: 49vw;
+            margin: 0 auto 3.5vw auto;
+            color: #fff;
+
+            .hero-body-copy-hero-asterisk {
+                font-size: 3vw;
+                position: relative;
+                bottom: -1vw;
+            }
+        }
+
+        .hero-cart-promo {
+            font-family: "FuturaStd-Bold", "Futura-Bold", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+            color: #ffffff;
+            font-size: 2.7vw;
+            margin: 2vw 0 4.5vw 0 !important;
+            text-transform: uppercase;
+
+            .final-day {
+                color: #99ffeb;
+            }
+        }
+
+        .shop-now-cta {
+            font-size: 3.6vw;
+            font-family: "FuturaStd-Heavy", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: 0;
+            background-color: #f8fa3d;
+            color: #282828;
+            display: inline-block;
+            padding: 2vw 7.5vw;
+            margin: 0;
+            transition: 0.5s all;
+            letter-spacing: 0.5px;
+
+            &:hover {
+                letter-spacing: 2.7px;
+            }
+        }
+
+        // Between Desktop and Mobile.
+        @media only screen and (min-width: 668px) {
+            .hero-headline {
+                font-size: 5.7vw;
+                margin: 2vw 0 1vw 0 !important;
+                line-height: 5.2vw;
+
+                .hero-headline-hero-asterisk {
+                    font-size: 2vw;
+                    position: relative;
+                    left: 0vw;
+                    top: -3.5vw;
+                    color: #fff;
+                }
+            }
+
+            .hero-body-copy {
+                font-size: 1.9vw;
+                width: 32vw;
+                margin: 0 auto 1.5vw auto;
+
+                .hero-body-copy-hero-asterisk {
+                    bottom: -0.4vw;
+                    font-size: 1.2vw;
+                }
+            }
+
+            .hero-cart-promo {
+                font-size: 2.2vw;
+                margin: 0 !important;
+            }
+
+            .shop-now-cta {
+                font-size: 2vw;
+                padding: 1vw 4vw;
+                margin: 1vw 0 0.5vw 0 !important;
+            }
+        }
+
+        // Greater than 1008px (desktop)
+        @media only screen and (min-width: 1008px) {
+            .hero-headline {
+                font-size: 59px;
+                line-height: 95px;
+                margin: 0px 0 -16px 0 !important;
+
+                .hero-headline-hero-asterisk {
+                    font-size: 20px;
+                    top: -35px;
+                }
+            }
+
+            .hero-body-copy {
+                font-size: 19.5px;
+                width: 311px;
+                margin: 0 auto 13px auto;
+
+                .hero-body-copy-hero-asterisk {
+                    bottom: -5px;
+                    left: -1px;
+                    font-size: 13.5px;
+                }
+            }
+
+            .hero-cart-promo {
+                font-size: 23px;
+                margin: 0 !important;
+            }
+
+            .shop-now-cta {
+                padding: 10px 40px;
+                font-size: 17px;
+                margin: 16px 0 5px 0 !important;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 668px) {
+        .hero-text-container {
+            top: 21%;
+        }
+    }
+
+    // IE10+ CSS styles go here
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {}
+}
