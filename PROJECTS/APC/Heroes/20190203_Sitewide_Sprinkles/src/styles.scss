@@ -54,16 +54,6 @@
             }
         }
 
-        // .hero-text-container a:hover {
-        //     color: black;
-        // }
-
-        // .hero-text-container a {
-        //     text-decoration: none;
-        //     margin-top: 5vw;
-        //     position: relative;
-        // }
-
         .everything-copy {
             color: #dca9e4;
         }
@@ -87,29 +77,15 @@
             margin: 3vw 0 0 0 !important;
         }
 
-
-
         p.everything-copy {
             font-family: 'Futura-Bold', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
             font-weight: bold;
             font-style: normal;
-            // font-size: 3.7vw;
             font-size: 5.1vw;
-            // margin: 0.1vw 0 4.5vw 3vw !important;
             margin: 0.1vw 0 3vw 3vw !important;
         }
 
         .hero-text-container .discount:hover {
-            color: #000000;
-        }
-
-        .exceptions {
-            font-family: 'FuturaStd-Light', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
-            margin: 5px 0 0 0 !important;
-            text-align: center;
-            letter-spacing: 0.5px;
-            font-size: 12px;
-            text-align: right;
             color: #000000;
         }
 
@@ -137,11 +113,6 @@
                 top: 18%;
             }
 
-            .hero-text-container a {
-                margin-top: 4vw;
-                padding-bottom: 0;
-            }
-
             p.everything-copy {
                 font-size: 2.8vw;
                 margin: 0 0 0 4.5vw !important;
@@ -158,10 +129,6 @@
         @media only screen and (min-width: 1008px) {
             .hero-text-container {
                 top: 20%;
-            }
-
-            .hero-text-container a {
-                margin-top: 45px !important;
             }
 
             .shop-now-cta {
@@ -185,9 +152,27 @@
 
     }
 
+    .exceptions {
+        font-family: 'FuturaStd-Light', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        margin: 5px 0 0 0 !important;
+        text-align: center;
+        letter-spacing: 0.5px;
+        font-size: 3vw;
+        text-align: right;
+        color: #000000;
+    }
 
+    @media screen and (min-width: 667px) {
+        .exceptions {
+            font-size: 1.4vw;
+        }
+    }
 
-
+    @media screen and (min-width: 1008px) {
+        .exceptions {
+            font-size: 13px;
+        }
+    }
 
     // IE10+ CSS styles go here
     @media all and (-ms-high-contrast: none),
