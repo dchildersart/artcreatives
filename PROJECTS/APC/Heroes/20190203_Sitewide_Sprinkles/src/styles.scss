@@ -154,7 +154,7 @@
 
     .exceptions {
         font-family: 'FuturaStd-Light', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
-        margin: 5px 0 0 0 !important;
+        margin: 3px 3px 0 0 !important;
         text-align: center;
         letter-spacing: 0.5px;
         font-size: 3vw;
@@ -171,6 +171,7 @@
     @media screen and (min-width: 1008px) {
         .exceptions {
             font-size: 13px;
+            margin: 3px 0 0 0 !important;
         }
     }
 
