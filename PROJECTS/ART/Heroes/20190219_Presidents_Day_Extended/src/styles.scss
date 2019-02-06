@@ -1,0 +1,342 @@
+.art-hero-wrapper {
+    cursor: pointer;
+    max-width: 1800px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    margin-top: 5px;
+    color: #ffffff;
+    font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin: 0;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+    a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    // Mobile
+    .hero-group {
+        height: 103vw;
+        background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0216/mobile-bg.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-size: cover;
+        margin: auto;
+        background-repeat: no-repeat;
+
+        .hero-text-container {
+            text-align: center;
+            position: relative;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+            height: 100%;
+
+            .opacity-bg {
+                position: absolute;
+                background: #ffffff;
+                /* IE */
+                filter: alpha(opacity=90);
+                /* Mozilla */
+                -moz-opacity: 0.9;
+                /* CSS3 */
+                opacity: 0.9;
+                width: 85vw;
+                margin: 0 auto;
+                top: 6%;
+                bottom: 6%;
+                left: 2%;
+                right: 2%;
+            }
+
+            .nested-text {
+                position: absolute;
+                opacity: 1 !important;
+                top: 11%;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                // height: 100%;
+                width: 100%;
+                text-transform: uppercase;
+
+                .everything {
+                    font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+                    font-size: 8.4vw;
+                    font-weight: 400;
+                    color: #213a6d;
+                    margin-top: 5vw;
+                    letter-spacing: 1px;
+                    display: block;
+
+                    .hero-asterisk {
+                        font-size: 5vw;
+                        position: relative;
+                        top: -2.5vw;
+                    }
+                }
+
+                .subtitle-text {
+                    font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+                    font-weight: 500;
+                    line-height: 7.4vw;
+                    letter-spacing: 4px;
+                    color: #8ebce8;
+
+                    .extended {
+                        font-size: 4.9vw;
+                        color: #b33e32;
+                    }
+
+                    .presidents-weekend-copy {
+                        line-height: 9vw;
+                        margin-top: 3vw;
+
+                        .presidents-day {
+                            font-size: 7vw;
+                        }
+
+                        .weekend-sale {
+                            font-size: 7vw;
+
+                            .toggle-break {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                .discount {
+                    font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+                    font-size: 17.5vw;
+                    color: #213a6d;
+                    margin: 4.5vw auto 4.2vw auto;
+                    line-height: .8;
+                    display: block;
+                }
+
+                .hero-cta {
+                    font-size: 4vw;
+                    font-weight: 600;
+                    color: #ffffff;
+                    background: #b33e32;
+                    padding: 2.5vw 10.5vw;
+                    line-height: normal;
+                    letter-spacing: 0.7vw;
+                    border: none;
+                    margin-top: 7vw;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    // Tablet
+    @media screen and (min-width: 667px) {
+        .hero-group {
+            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0216/desktop-bg.jpg");
+            // height: 260px;
+            height: 40vw;
+
+            .hero-text-container {
+                .opacity-bg {
+                    width: 89vw;
+                    margin: 0 auto;
+                    top: 11%;
+                    bottom: 11%;
+                    left: 2%;
+                    right: 2%;
+                }
+
+                .nested-text {
+                    top: 21%;
+
+                    .subtitle-text {
+                        line-height: 0;
+
+                        .extended {
+                            font-size: 2.8vw;
+                        }
+
+                        .presidents-weekend-copy {
+                            margin-top: 0;
+                            line-height: 7.5vw;
+
+                            .presidents-day {
+                                font-size: 3vw;
+                                letter-spacing: 0.7vw;
+                            }
+
+                            .weekend-sale {
+                                font-size: 3vw;
+                                letter-spacing: 0.7vw;
+
+                                .toggle-break {
+                                    display: inline;
+                                }
+                            }
+                        }
+                    }
+
+                    .discount {
+                        margin: 0.5vw auto 4.2vw auto;
+                        font-size: 6.5vw;
+
+                        .everything {
+                            font-size: 6.5vw;
+                            margin-top: 4vw;
+
+                            .hero-asterisk {
+                                font-size: 4vw;
+                            }
+                        }
+                    }
+
+                    .discount,
+                    .everything {
+                        display: inline;
+                    }
+
+                    .hero-cta {
+                        font-size: 1.8vw;
+                        padding: 1.5vw 3vw;
+                        width: 14vw;
+                        margin: 4vw auto;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    // Desktop
+    @media screen and (min-width: 1008px) {
+        .hero-group {
+            height: 30vw;
+
+            .hero-text-container {
+                .opacity-bg {
+                    width: 77vw;
+                    top: 10%;
+                    bottom: 10%;
+                }
+
+                .nested-text {
+                    top: 20%;
+
+                    .subtitle-text {
+                        .extended {
+                            font-size: 2.1vw;
+                        }
+
+                        .presidents-weekend-copy {
+                            margin-top: 0;
+                            line-height: 5.5vw;
+
+                            .presidents-day {
+                                font-size: 2.4vw;
+                                letter-spacing: 0.5vw;
+                            }
+
+                            .weekend-sale {
+                                font-size: 2.4vw;
+                                letter-spacing: 0.5vw;
+                            }
+                        }
+                    }
+
+                    .discount {
+                        font-size: 5.8vw;
+
+                        .everything {
+                            font-size: 5.8vw;
+
+                            .hero-asterisk {
+                                font-size: 4vw;
+                                top: -1.3vw;
+                            }
+                        }
+                    }
+
+                    .hero-cta {
+                        font-size: 1.6vw;
+                        letter-spacing: 0.3vw;
+                        padding: 1.2vw 1.8vw;
+                        width: 14.2vw;
+                        margin: 2.9vw auto;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 1600px) {
+        .hero-group {
+            height: 543px;
+
+            .hero-text-container {
+                .opacity-bg {
+                    width: 1390px;
+                }
+
+                .nested-text {
+                    top: 16%;
+
+                    .subtitle-text {
+                        line-height: 22px;
+
+                        .extended {
+                            font-size: 31px;
+                        }
+
+                        .presidents-weekend-copy {
+                            margin-top: 0;
+                            line-height: 95px;
+
+                            .presidents-day,
+                            .weekend-sale {
+                                font-size: 44px;
+                                letter-spacing: 8px;
+                            }
+                        }
+                    }
+
+                    .discount {
+                        font-size: 105px;
+
+                        .everything {
+                            font-size: 105px;
+
+                            .hero-asterisk {
+                                font-size: 50px;
+                                top: -39px;
+                            }
+                        }
+                    }
+
+                    .hero-cta {
+                        font-size: 24px;
+                        letter-spacing: 7px;
+                        padding: 16px 46px 16px 56px;
+                        width: 186px;
+                        position: relative;
+                        left: -11px;
+                        margin: 56px auto;
+                    }
+                }
+            }
+        }
+    }
+}
