@@ -88,12 +88,11 @@
     letter-spacing: 1vw;
     border: none;
     margin: 3.5vw auto 6.5vw auto;
-}
 
-.hero-cta:hover {
-    /* letter-spacing: 9px;
-    transition: 0.5s ease-in-out;
-    color: #fff; */
+    &:hover {
+        background-color: #e8e4e4;
+        color: #47473e;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -105,7 +104,6 @@
 
     .hero-big-text {
         justify-content: center;
-        // width: 78%;
         width: 72%;
 
         .nested-container {
@@ -129,7 +127,6 @@
         padding: 1.8vw 5vw;
         font-size: 2.5vw;
         letter-spacing: 0.6vw;
-        // margin: 3.5vw auto 0vw auto;
         margin: 3.5vw auto 5.3vw auto;
 
     }
@@ -165,7 +162,6 @@
         padding: 1.6vw 4.3vw;
         font-size: 2.1vw;
         letter-spacing: .6vw;
-        // margin: 2vw auto 0 auto;
         margin: 2vw auto 4vw auto;
     }
 }
