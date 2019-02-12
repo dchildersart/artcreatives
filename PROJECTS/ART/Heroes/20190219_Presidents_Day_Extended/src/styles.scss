@@ -101,7 +101,7 @@
                     }
 
                     .presidents-weekend-copy {
-                        line-height: 9vw;
+                        line-height: 7.6vw;
                         margin-top: 3vw;
 
                         .presidents-day {
@@ -128,11 +128,11 @@
                 }
 
                 .hero-cta {
-                    font-size: 4vw;
+                    font-size: 3.4vw;
                     font-weight: 600;
                     color: #ffffff;
                     background: #b33e32;
-                    padding: 2.5vw 10.5vw;
+                    padding: 3vw 10.5vw;
                     line-height: normal;
                     letter-spacing: 0.7vw;
                     border: none;
@@ -210,9 +210,9 @@
                     }
 
                     .hero-cta {
-                        font-size: 1.8vw;
-                        padding: 1.5vw 3vw;
-                        width: 14vw;
+                        font-size: 1.5vw;
+                        padding: 1.5vw 2vw;
+                        width: 16vw;
                         margin: 4vw auto;
                         display: block;
                     }
@@ -271,8 +271,8 @@
                     }
 
                     .hero-cta {
-                        font-size: 1.6vw;
-                        letter-spacing: 0.3vw;
+                        font-size: 1.3vw;
+                        letter-spacing: 0.4vw;
                         padding: 1.2vw 1.8vw;
                         width: 14.2vw;
                         margin: 2.9vw auto;
@@ -327,9 +327,9 @@
                     }
 
                     .hero-cta {
-                        font-size: 24px;
+                        font-size: 20px;
                         letter-spacing: 7px;
-                        padding: 16px 46px 16px 56px;
+                        padding: 20px 43px 20px 52px;
                         width: 186px;
                         position: relative;
                         left: -11px;
@@ -341,17 +341,24 @@
     }
 }
 
-.exceptions-hero {
+.exceptions {
     max-width: 1800px;
     margin: 0 auto;
 
-    @media screen and (max-width: 667px) {
-        margin-bottom: 4px;
+    p {
+        font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: right;
+        margin-top: 4px !important;
+        margin-right: 3px;
     }
 
-    p {
-        text-align: right;
-        margin: 0;
-        font-size: 12px;
+    @media screen and (min-width: 667px) {
+        margin-bottom: 4px;
+
+        p {
+            font-size: 14px;
+        }
     }
 }
