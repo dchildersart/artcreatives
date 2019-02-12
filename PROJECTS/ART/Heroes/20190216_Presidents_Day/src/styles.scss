@@ -68,7 +68,6 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-                // height: 100%;
                 width: 100%;
                 text-transform: uppercase;
 
@@ -91,7 +90,6 @@
                 .subtitle-text {
                     font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
                     font-weight: 500;
-                    // font-size: 3.8vw;
                     color: #b33e32;
                     margin: 0px 4px 0px 10px;
                     line-height: 7.4vw;
@@ -115,21 +113,25 @@
                     font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
                     font-size: 17.5vw;
                     color: #213a6d;
-                    margin: 8vw auto 4.2vw auto;
+                    // margin: 8vw auto 4.2vw auto;
+                    margin: 7vw auto 4.2vw auto;
                     line-height: .8;
                     display: block;
                 }
 
                 .hero-cta {
-                    font-size: 4vw;
+                    // font-size: 4vw;
+                    font-size: 3.4vw;
                     font-weight: 600;
                     color: #ffffff;
                     background: #b33e32;
-                    padding: 2.5vw 10.5vw;
+                    // padding: 2.5vw 10.5vw;
+                    padding: 3vw 10.5vw;
                     line-height: normal;
                     letter-spacing: 0.7vw;
                     border: none;
-                    margin-top: 8vw;
+                    // margin-top: 8vw;
+                    margin-top: 6vw;
                     display: inline-block;
                 }
             }
@@ -140,7 +142,6 @@
     @media screen and (min-width: 667px) {
         .hero-group {
             background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0216/desktop-bg.jpg");
-            // height: 260px;
             height: 38vw;
 
             .hero-text-container {
@@ -193,9 +194,12 @@
                     }
 
                     .hero-cta {
-                        font-size: 1.8vw;
-                        padding: 1.5vw 3vw;
-                        width: 14vw;
+                        // font-size: 1.8vw;
+                        font-size: 1.5vw;
+                        // padding: 1.5vw 3vw;
+                        padding: 1.5vw 2vw;
+                        // width: 14vw;
+                        width: 16vw;
                         margin: 4vw auto;
                         display: block;
                     }
@@ -245,8 +249,8 @@
                     }
 
                     .hero-cta {
-                        font-size: 1.6vw;
-                        letter-spacing: 0.5vw;
+                        font-size: 1.3vw;
+                        letter-spacing: 0.4vw;
                         padding: 1.2vw 1.8vw;
                         width: 14.2vw;
                         margin: 2.9vw auto;
@@ -255,7 +259,6 @@
             }
         }
     }
-
 
     @media screen and (min-width: 1600px) {
         .hero-group {
@@ -293,11 +296,11 @@
                     }
 
                     .hero-cta {
-                        font-size: 24px;
+                        // font-size: 24px;
+                        font-size: 20px;
                         letter-spacing: 7px;
-                        // padding: 18px 35px;
-                        // width: 228px;
-                        padding: 16px 46px 16px 56px;
+                        // padding: 16px 46px 16px 56px;
+                        padding: 20px 43px 20px 52px;
                         width: 186px;
                         position: relative;
                         left: -11px;
@@ -309,17 +312,24 @@
     }
 }
 
-.exceptions-hero {
+.exceptions {
     max-width: 1800px;
     margin: 0 auto;
 
-    @media screen and (max-width: 667px) {
-        margin-bottom: 4px;
+    p {
+        font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: right;
+        margin-top: 4px !important;
+        margin-right: 3px;
     }
 
-    p {
-        text-align: right;
-        margin: 0;
-        font-size: 12px;
+    @media screen and (min-width: 667px) {
+        margin-bottom: 4px;
+
+        p {
+            font-size: 14px;
+        }
     }
 }
