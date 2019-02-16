@@ -255,13 +255,54 @@
     }
 
     // IE10+ CSS styles go here
-    @media all and (-ms-high-contrast: none),
+    // @media all and (-ms-high-contrast: none),
+    // (-ms-high-contrast: active) {
+
+    //     .discount,
+    //     .exceptions-hero-asterisk {
+    //         background: none;
+    //         color: #fd3e35;
+    //     }
+    // }
+    @media all and (min-width: 668px) and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        .hero-text-container {
+            .discount {
+                margin: 1.3vw 0 .3vw 0 !important;
+                line-height: 5.7vw;
+
+            }
+
+            .shop-now-cta {
+                margin: -0.5vw 0 0vw 0 !important;
+            }
+
+            .discount,
+            .exceptions-hero-asterisk {
+                background: none;
+                color: #fd3e35;
+            }
+        }
+    }
+
+    @media all and (min-width: 1008px) and (-ms-high-contrast: none),
     (-ms-high-contrast: active) {
 
-        .discount,
-        .exceptions-hero-asterisk {
-            background: none;
-            color: #fd3e35;
+        .hero-text-container {
+            .discount {
+                margin: 13px 0 1px 0 !important;
+                line-height: 54px;
+            }
+
+            .shop-now-cta {
+                margin: 4px 0 0 0 !important;
+            }
+
+            .discount,
+            .exceptions-hero-asterisk {
+                background: none;
+                color: #fd3e35;
+            }
         }
     }
 }
