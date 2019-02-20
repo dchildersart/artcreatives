@@ -1,0 +1,235 @@
+.art-hero-wrapper {
+    cursor: pointer;
+    max-width: 1800px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+
+    .hero-group {
+        background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0224/neon_bg_desktop1.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-size: cover;
+        margin: auto;
+        background-repeat: no-repeat;
+        height: 515px;
+    }
+
+    a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .hero-text {
+        text-align: center;
+        position: relative;
+        top: 8%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin: 0;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+    h1,
+    h2 {
+        color: #ffffff;
+        font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+        font-size: 162px;
+        margin-top: -10px;
+    }
+
+    h2 {
+        font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 5px;
+
+        sup {
+            font-size: 20px;
+            vertical-align: top;
+            line-height: 1.3;
+        }
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 25px;
+        letter-spacing: 4px;
+        // border-bottom: 1.5px solid #fffdf0;
+        // height: 29px;
+        // width: 198px;
+    }
+
+    h4 {
+        color: #0d4773;
+        font-size: 30px;
+        font-weight: 200;
+        margin: 14px;
+    }
+
+    .hero-cta {
+        color: #ffffff;
+        padding: 13px 46px;
+        line-height: normal;
+        font-size: 15px;
+        background: #862f52;
+        font-weight: 400;
+        letter-spacing: 5px;
+        border: none;
+        margin-top: 33px;
+        transition: .3s all;
+
+        &:hover {
+            background: #ffffff;
+            color: #862f52;
+        }
+    }
+
+    // Special for this Hero
+    @media (min-width: 1280px) and (max-width: 1600px) {
+        h1 {
+            font-size: 10vw;
+        }
+
+        h2 {
+            font-size: 2.5vw;
+
+            sup {
+                font-size: 20px;
+                line-height: 1.2vw;
+            }
+        }
+
+        h3 {
+            font-size: 1.6vw;
+        }
+
+        h4 {
+            font-size: 1.9vw;
+        }
+
+        .hero-cta {}
+    }
+
+    // Between Desktop and Mobile
+    @media (min-width: 668px) and (max-width: 1279px) {
+        h1 {
+            font-size: 120px;
+        }
+
+        h2 {
+            font-size: 30px;
+
+            sup {
+                font-size: 20px;
+                line-height: 1.2vw;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 24px;
+        }
+
+        .hero-cta {}
+    }
+
+    // Mobile Breakpoint
+    @media screen and (max-width: 667px) {
+        .hero-group {
+            height: 100vw;
+            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0224/neon_bg_mobile.jpg");
+        }
+
+        h1 {
+            font-size: 19.5vw;
+        }
+
+        h2 {
+            font-size: 10vw;
+            position: relative;
+            left: 6px;
+
+            sup {
+                font-size: 20px;
+                line-height: 6vw;
+            }
+        }
+
+        h3 {
+            font-size: 5vw;
+            margin-bottom: 3vw;
+        }
+
+        h4 {
+            font-size: 5.2vw;
+        }
+    }
+
+    // Mobile (Design) Breakpoint
+    @media screen and (width: 667px) {
+        .hero-group {
+            height: 100vw;
+            background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0224/neon_bg_mobile.jpg");
+        }
+
+        h1 {
+            font-size: 130px;
+        }
+
+        h2 {
+            font-size: 66px;
+
+            sup {
+                font-size: 20px;
+            }
+        }
+
+        h4 {}
+
+        .hero-cta {
+            font-size: 34px;
+            padding: 22px 100px;
+            letter-spacing: 0.6vw;
+        }
+    }
+}
+
+.exceptions-hero {
+    max-width: 1800px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 667px) {
+        margin-bottom: 4px;
+    }
+
+    p {
+        text-align: right;
+        margin: 0;
+        font-size: 12px;
+    }
+}
