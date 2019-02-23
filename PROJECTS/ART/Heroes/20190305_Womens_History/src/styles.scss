@@ -1,0 +1,177 @@
+.art-hero-wrapper {
+    max-width: 1800px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+}
+
+.hero-group {
+    background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0305/mobile-bg-opt.jpg");
+    z-index: 99;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 128vw;
+
+    a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .hero-big-text {
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        height: 100%;
+        padding-top: 5%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        .hero-copy {
+            font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
+            color: #c6f6ff;
+            text-align: center;
+            font-size: 8.5vw;
+            line-height: 1;
+            margin: 5px 0 10px;
+        }
+
+        .hero-subcopy {
+            color: #f9ebea;
+            font-size: 6vw;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            margin: 1vw 0 0 0;
+            padding: 0 2vw;
+        }
+
+        .hero-cta {
+            margin: 4vw 0 0 0;
+            font-weight: 700;
+            border: none;
+            font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+            font-size: 3.8vw;
+            background-color: #fff;
+            color: #454549;
+            width: 48vw;
+            padding: 2.8vw 0;
+            letter-spacing: 1vw;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .hero-group {
+        background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/0305/desktop-bg-opt.jpg");
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        background-repeat: no-repeat;
+        height: 31vw;
+
+        .hero-big-text {
+            top: 24%;
+            display: flex;
+            margin: 0;
+            width: 37%;
+            height: auto;
+            padding-top: 0;
+            left: 63%;
+
+            .hero-copy {
+                font-size: 4.3vw;
+                margin: 0;
+            }
+
+            .hero-subcopy {
+                font-size: 2vw;
+                padding: 0 4.8vw;
+            }
+
+            .hero-cta {
+                text-align: center;
+                font-size: 1.6vw;
+                letter-spacing: 0.3vw;
+                padding: 1vw 0;
+                width: 40%;
+                margin: 2vw 0 0 0
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1008px) {
+    .hero-group {
+        .hero-big-text {
+            .hero-cta {
+                font-size: 1.6vw;
+                width: 16vw;
+                padding: 1.2vw 1.3vw;
+                margin: 20px 0 0 0;
+                letter-spacing: 6px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .hero-group {
+        height: 543px;
+
+        .hero-big-text {
+            left: 67%;
+            top: 24%;
+            width: 31%;
+
+            .hero-copy {
+                font-size: 69px;
+            }
+
+            .hero-subcopy {
+                font-size: 32px;
+                line-height: 38px;
+                padding: 0 25px;
+                margin: 20px 0 0 0;
+            }
+
+            .hero-cta {
+                font-size: 23px;
+                width: 246px;
+                padding: 17px 7px;
+                margin: 30px 0 0 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .hero-group {
+        .hero-big-text {
+            left: 65%;
+
+            .hero-copy {
+                font-size: 74px;
+            }
+
+            .hero-subcopy {
+                font-size: 34px;
+                padding: 0 22px;
+            }
+
+            .hero-cta {
+                padding: 17px 13px;
+                width: 246px;
+                font-size: 24px;
+                margin: 35px 0 0 0;
+                letter-spacing: 7px;
+            }
+        }
+    }
+}
