@@ -34,7 +34,8 @@
     .hero-headline {
       color: #e03d60;
       margin: 0 0 0.5vw 0 !important;
-      font-size: 13vw;
+      // font-size: 13vw;
+      font-size: 12vw;
       line-height: 17.5vw;
       font-family: "FuturaStd-ExtraBold", "Futura", "Apercu", "Helvetica Neue",
         HelveticaNeue, Helvetica, Arial, sans-serif;
@@ -45,11 +46,12 @@
 
     .hero-body-copy {
       font-family: "FuturaStd-Medium", "Futura-Bold", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
-      font-size: 3.7vw;
-      width: 61vw;
+      font-size: 3.1vw;
+      width: 57vw;
       line-height: 4.4vw;
       margin: 0 auto 3vw auto !important;
       color: #bf08e0;
+      letter-spacing: 0.2vw;
 
       .show-break {
         display: none;
@@ -78,16 +80,18 @@
     // Between Desktop and Mobile.
     @media only screen and (min-width: 668px) {
       .hero-headline {
-        font-size: 6.5vw;
+        font-size: 6.7vw;
         margin: 0 !important;
         line-height: 7.5vw;
       }
 
       .hero-body-copy {
-        font-size: 2.1vw;
-        width: 26vw;
-        margin: 0 auto 0.5vw auto !important;
-        line-height: 2.7vw;
+        font-size: 1.8vw;
+        width: 25vw;
+        margin: 0.3vw auto 0.5vw auto !important;
+        line-height: 2.4vw;
+        letter-spacing: 0.12vw;
+        word-spacing: -0.1vw;
 
         .show-break {
           display: inline;
@@ -105,15 +109,17 @@
     @media only screen and (min-width: 1008px) {
       .hero-headline {
         font-size: 65px;
-        line-height: 74px;
+        line-height: 71px;
         margin: 0 !important;
       }
 
       .hero-body-copy {
-        font-size: 19.5px;
+        font-size: 17.5px;
         width: 219px;
         margin: 0 auto 3px auto !important;
-        line-height: 25px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        word-spacing: -2px;
 
       }
 
@@ -127,7 +133,7 @@
 
   @media only screen and (min-width: 668px) {
     .hero-text-container {
-      top: 13%;
+      top: 15%;
       left: 0%;
       right: 62%;
       width: 32vw;
