@@ -74,7 +74,7 @@
 
     .exceptions {
         font-family: 'FuturaStd-Light', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
-        margin: 5px 0 0 0 !important;
+        margin: 5px 5px 0 0 !important;
         text-align: center;
         letter-spacing: 0.5px;
         font-size: 12px;
@@ -129,6 +129,10 @@
                 font-size: 26px;
                 margin: 0 0 0 3px !important;
             }
+        }
+
+        .exceptions {
+            margin: 5px 0 0 0 !important;
         }
     }
 
