@@ -3,10 +3,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0 auto;
+
     // For Dev Environment on the Heroes. Comment out when complete and ready to push to prod
     // height: 545px;
     // height: 85vw;
-
     a {
         text-decoration: none;
         width: 100%;
@@ -96,7 +96,6 @@
         line-height: 9.8vw;
         color: #ffffff;
         margin: 3.5vw 0 0 0;
-        // width: 77%;
     }
 
     .hero-subcopy {
@@ -109,13 +108,9 @@
     .hero-cta {
         background-color: #76bbc6;
         color: #fefefe;
-
         padding: 2.7vw 9.5vw;
-
         font-size: 3.5vw;
-
         letter-spacing: 1vw;
-
         margin: 4.5vw auto 6.5vw auto;
     }
 }
@@ -125,15 +120,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    // .art-hero-wrapper {
-    //     height: 545px;
-
-    // }
-
     .mobile-content {
         display: none;
     }
-
 
     .desktop-content {
         display: block;
@@ -142,9 +131,11 @@
             justify-content: center;
             width: 72%;
             background-color: #5da3ba;
+            padding-bottom: 3vw;
 
             .nested-container {
-                top: 5%;
+                // top: 5%;
+                top: 13%;
 
                 h2 {
                     margin: 0;
@@ -154,9 +145,9 @@
 
         .hero-copy,
         .go-big {
-            font-size: 6.5vw;
+            // font-size: 6.5vw;
+            font-size: 5.5vw;
             line-height: 5.6vw;
-            // width: 78%;
             color: #cbebfb;
             margin: 0;
             right: 0;
@@ -170,17 +161,22 @@
         }
 
         .hero-subcopy {
-            font-size: 3vw;
+            // font-size: 3vw;
+            font-size: 2.7vw;
             padding: 0 10vw;
             margin: 1.2vw 0;
+            line-height: 3vw;
             color: #303f61;
         }
 
         .hero-cta {
-            padding: 1.8vw 5vw;
-            font-size: 2.5vw;
+            // padding: 1.8vw 5vw;
+            padding: 1.5vw 4.7vw;
+            // font-size: 2.5vw;
+            font-size: 2vw;
             letter-spacing: 0.6vw;
-            margin: 3.5vw auto 5.3vw auto;
+            // margin: 3.5vw auto 5.3vw auto;
+            margin: 1vw auto 5.3vw auto;
             background-color: #155f85;
             color: #ded9cb;
         }
@@ -209,7 +205,8 @@
 
         .hero-copy,
         .go-big {
-            font-size: 6vw;
+            // font-size: 6vw;
+            font-size: 5vw;
             line-height: 5.2vw;
             width: 100%;
 
@@ -219,28 +216,34 @@
         }
 
         .hero-subcopy {
-            font-size: 2.7vw;
-            padding: 0 2.2vw;
+            // font-size: 2.7vw;
+            font-size: 2.4vw;
+            // padding: 0 2.2vw;
+            padding: 0 7.5vw;
             margin: 1.2vw 0;
+            line-height: 2.5vw;
         }
 
         .hero-cta {
-            padding: 1.6vw 4.3vw;
-            font-size: 2.1vw;
+            // padding: 1.6vw 4.3vw;
+            padding: 1.5vw 4vw;
+            // font-size: 2.1vw;
+            font-size: 1.8vw;
             letter-spacing: .6vw;
-            margin: 2vw auto 4vw auto;
+            // margin: 2vw auto 4vw auto;
+            margin: 1vw auto 5vw auto;
         }
     }
 }
 
 @media screen and (min-width: 1300px) {
-
     .desktop-content {
         .hero-big-text {
             width: 47%;
 
             .nested-container {
                 width: 86%;
+                top: 17%;
             }
         }
 
@@ -260,13 +263,15 @@
             font-size: 27px;
             padding: 0 95px;
             margin: 12px 0;
+            line-height: 29px;
         }
 
         .hero-cta {
             padding: 16px 43px;
             font-size: 21px;
             letter-spacing: 6px;
-            margin: 20px auto 0 auto;
+            // margin: 20px auto 0 auto;
+            margin: 15px auto 67px auto;
         }
     }
 }
@@ -275,6 +280,7 @@
     .desktop-content {
         .hero-big-text {
             width: 36%;
+            padding-bottom: 53px;
         }
 
         .hero-copy,
@@ -292,15 +298,36 @@
             font-size: 30px;
             padding: 0 90px;
             margin: 18px 0 12px 0;
+            line-height: 32px;
         }
     }
 }
 
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-    .hero-copy {
-        background: none;
-        color: #ccb96f;
+(-ms-high-contrast: active) and (min-width: 768px) {
+    .hero-subcopy {
+        width: 42%;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) and (min-width: 1008px) {
+    .hero-subcopy {
+        width: 63%;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) and (min-width: 1300px) {
+    .hero-subcopy {
+        width: 58%;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) and (min-width: 1600px) {
+    .hero-subcopy {
+        width: 60%;
     }
 }
