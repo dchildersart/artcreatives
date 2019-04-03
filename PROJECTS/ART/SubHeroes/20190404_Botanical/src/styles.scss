@@ -1,0 +1,51 @@
+.art-subhero-wrapper {
+    max-width: 1800px;
+    margin: 5px auto 0;
+    font-family: 'CalibreFamily', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    a {
+        text-decoration: none;
+    }
+
+    .subhero-content {
+        display: block;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .subhero-media {
+        background-image: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/subhero/april/botanical-subhero-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 89vw;
+    }
+
+    .subhero-text {
+        text-align: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+
+    // Tablet 
+    @media screen and (min-width: 768px) {
+        .subhero-media {
+            display: none;
+        }
+
+        .subhero-text {
+            height: 12.6vw;
+            position: relative;
+            background: url("https://cache1.artprintimages.com/images/jump_pages/rebrand/homepage/2019/subhero/april/botanical-subhero-desktop.jpg");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            width: 100%;
+        }
+    }
+}
