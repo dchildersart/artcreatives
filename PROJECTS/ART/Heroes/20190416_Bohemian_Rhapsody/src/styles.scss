@@ -8,6 +8,7 @@
     // height: 545px;
 
     // height: 85vw;
+    height: 600px;
     a {
         text-decoration: none;
         width: 100%;
@@ -83,7 +84,7 @@
         background-position: 0% 0%;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 89vw;
+        height: 86vw;
 
         .nested-container {
             // top: 57%;
@@ -111,7 +112,7 @@
         padding: 2.7vw 9.5vw;
         font-size: 3.5vw;
         letter-spacing: 1vw;
-        margin: 3.5vw auto 6.5vw auto;
+        margin: 1.5vw auto 6.5vw auto;
     }
 }
 
@@ -217,7 +218,6 @@
 
             .nested-container {
                 width: 86%;
-                top: 17%;
             }
         }
 
