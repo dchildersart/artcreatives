@@ -94,7 +94,7 @@
         height: 87vw;
 
         .nested-container {
-            top: 65%;
+            top: 67%;
         }
     }
 
@@ -115,10 +115,10 @@
     .hero-cta {
         background-color: #cedfe7;
         color: #3b4c58;
-        padding: 2.5vw 6.5vw;
-        font-size: 3.5vw;
+        padding: 2.1vw 5vw;
+        font-size: 3vw;
         letter-spacing: 1vw;
-        margin: 2vw auto 6.5vw auto;
+        margin: 2.3vw auto 6.5vw auto;
     }
 }
 
@@ -137,13 +137,13 @@
 
         .hero-big-text {
             justify-content: center;
-            width: 42%;
+            width: 38%;
             padding-bottom: 3vw;
             position: absolute;
-            top: 0%;
-            bottom: 21%;
+            top: 8%;
+            bottom: 0%;
             right: 0;
-            left: 60%;
+            left: 62%;
 
             .nested-container {
                 top: 13%;
@@ -164,14 +164,14 @@
 
         .hero-subcopy {
             font-size: 2.3vw;
-            padding: 0 5vw;
+            padding: 0 2vw;
             margin: 1.2vw 0;
             line-height: 3vw;
             color: #ffffff;
         }
 
         .hero-cta {
-            padding: 1.5vw 4.7vw;
+            padding: 1.5vw 4vw;
             font-size: 2vw;
             letter-spacing: 0.6vw;
             margin: 1vw auto 5.3vw auto;
@@ -195,11 +195,11 @@
 @media screen and (min-width: 1008px) {
     .desktop-content {
         .hero-big-text {
-            width: 40%;
-            top: 0%;
-            bottom: 13%;
+            width: 38%;
+            top: 7%;
+            bottom: 0%;
             right: 0;
-            left: 61%;
+            left: 62%;
 
             .nested-container {
                 width: 86%;
@@ -220,8 +220,8 @@
         }
 
         .hero-cta {
-            padding: 1.5vw 3.2vw;
-            letter-spacing: .6vw;
+            padding: 1.5vw 3vw;
+            letter-spacing: .5vw;
             margin: 1vw auto 5vw auto;
             font-size: 1.6vw;
         }
@@ -243,23 +243,23 @@
         }
 
         .hero-copy {
-            font-size: 56px;
+            font-size: 57px;
             line-height: 56px;
             margin: 35px 0 0 0;
         }
 
         .hero-subcopy {
             font-size: 23px;
-            padding: 0 49px;
+            padding: 0 38px;
             margin: 12px 0;
             line-height: 29px;
         }
 
         .hero-cta {
-            padding: 16px 43px;
-            font-size: 21px;
+            padding: 17px 52px;
+            font-size: 22px;
             letter-spacing: 6px;
-            margin: 15px auto 67px auto;
+            margin: 22px auto 67px auto;
         }
     }
 }
@@ -267,10 +267,10 @@
 @media screen and (min-width: 1600px) {
     .desktop-content {
         .hero-big-text {
-            width: 41%;
-            top: 3%;
-            bottom: 0%;
-            left: 61%;
+            width: 37%;
+            top: 0%;
+            bottom: 5%;
+            left: 63%;
             right: 0;
             padding-bottom: 53px;
 
@@ -280,15 +280,23 @@
         }
 
         .hero-copy {
-            font-size: 65px;
+            font-size: 69px;
             line-height: 68px;
         }
 
         .hero-subcopy {
-            font-size: 24px;
-            padding: 0 140px;
-            margin: 18px 0 12px 0;
+            font-size: 26px;
+            padding: 0px 85px;
+            margin: 14px 0 12px 0;
             line-height: 32px;
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .desktop-content {
+        .hero-subcopy {
+            padding: 0px 105px;
         }
     }
 }
