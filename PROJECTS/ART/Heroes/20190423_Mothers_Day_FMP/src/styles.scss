@@ -14,8 +14,6 @@
         text-decoration: none;
         width: 100%;
     }
-
-
 }
 
 .desktop-content {
@@ -70,6 +68,9 @@
         font-family: 'DomaineDisplay', Helvetica, Arial, sans-serif;
         text-align: center;
         position: relative;
+        .superscript {
+            position: relative;
+        }
     }
 
     .hero-subcopy {
@@ -94,7 +95,7 @@
         height: 87vw;
 
         .nested-container {
-            top: 67%;
+            top: 66%;
         }
     }
 
@@ -103,6 +104,10 @@
         line-height: 7.5vw;
         color: #ffe8dc;
         margin: 3.5vw 0 0 0;
+        .superscript {
+            font-size: 4.4vw;
+            top: 0.1vw;
+        }
     }
 
     .hero-subcopy {
@@ -160,11 +165,16 @@
             color: #ffe8dc;
             margin: 0;
             right: 0;
+            width: 84%;
+            .superscript {
+                font-size: 2.9vw;
+                top: 0vw;
+            }
         }
 
         .hero-subcopy {
             font-size: 2.3vw;
-            padding: 0 2vw;
+            padding: 0 3vw;
             margin: 1.2vw 0;
             line-height: 3vw;
             color: #ffffff;
@@ -209,12 +219,15 @@
         .hero-copy {
             font-size: 4.5vw;
             line-height: 4.8vw;
-            width: 100%;
+            width: 88%;
+            .superscript {
+                font-size: 2.4vw;
+            }
         }
 
         .hero-subcopy {
             font-size: 1.8vw;
-            padding: 0vw 2.4vw;
+            padding: 0vw 3.5vw;
             margin: 0.7vw 0 1.2vw 0;
             line-height: 2.2vw;
         }
@@ -246,11 +259,14 @@
             font-size: 57px;
             line-height: 56px;
             margin: 35px 0 0 0;
+            .superscript {
+                font-size: 28px;
+            }
         }
 
         .hero-subcopy {
             font-size: 23px;
-            padding: 0 38px;
+            padding: 0 48px;
             margin: 12px 0;
             line-height: 29px;
         }
@@ -282,6 +298,10 @@
         .hero-copy {
             font-size: 69px;
             line-height: 68px;
+            width: 76%;
+            .superscript {
+                top: -4px;
+            }
         }
 
         .hero-subcopy {
@@ -296,7 +316,7 @@
 @media screen and (min-width: 1800px) {
     .desktop-content {
         .hero-subcopy {
-            padding: 0px 105px;
+            padding: 0px 75px;
         }
     }
 }
