@@ -71,10 +71,6 @@
             letter-spacing: 0.8vw;
             margin: 2vw 0 4.8vw 0 !important;
             text-transform: uppercase;
-
-            .final-day {
-                color: #99ffeb;
-            }
         }
 
         .shop-now-cta {
@@ -148,6 +144,7 @@
             .free-shipping { 
                 font-size: 30px;
                 margin: 5px 0 0 0;
+                right: 7px;
                 .free-ship-asterisk {
                     font-size: 20px;
                     top: 3px;
