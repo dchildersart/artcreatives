@@ -168,13 +168,10 @@
     .exceptions {
         font-family: "FuturaStd-Medium", "Futura-Bold", 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
         font-size: 2.5vw;
-        color: #fff;
+        color: #000000;
         margin-top: 1vw;
+        margin-right: 0.2vw;
         text-align:right;
-        .exceptions-hero-asterisk {
-            font-size: 3vw;
-            bottom: -1vw;
-        }
     }
     
     @media only screen and (min-width: 668px) {
@@ -183,12 +180,8 @@
         }
         .exceptions {
             font-size: 1.2vw;
-            margin-top: 0;
-    
-            .exceptions-hero-asterisk {
-                bottom: -0.4vw;
-                font-size: 1.2vw;
-            }
+            margin-top: 5px;
+            margin-right: 0;
         }
     }
     
