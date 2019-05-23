@@ -188,12 +188,6 @@
     @media only screen and (min-width: 1008px) {
         .exceptions {
             font-size: 13.5px;
-    
-            .exceptions-hero-asterisk {
-                bottom: -5px;
-                left: -1px;
-                font-size: 13.5px;
-            }
         }
     }
 
@@ -201,8 +195,7 @@
     @media all and (-ms-high-contrast: none),
     (-ms-high-contrast: active) {
 
-        .discount,
-        .exceptions-hero-asterisk {
+        .discount {
             background: none;
             color: #fff;
         }
