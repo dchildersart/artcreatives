@@ -1,0 +1,185 @@
+// Mobile (Design)
+.apc-evergreen-wrapper {
+    position: relative;
+    max-width: 1008px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    img {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        color: #ffffff;
+    }
+
+    .hero-text-container {
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 21%;
+        left: 0%;
+        right: 0%;
+        bottom: 0;
+    }
+
+    .discount {
+        color: #000000;
+        margin: 0vw 0 1vw 0 !important;
+        font-size: 19.5vw;
+        line-height: 19.5vw;
+        padding: 0 4vw;
+        font-family: 'Futura-Bold', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        .everything-copy {
+            font-size: 8vw;
+            position: relative;
+            left: 3vw;
+            line-height: 13vw;
+            .everything-asterisk {
+                position: relative;
+                top: 1vw;
+                font-size: 5vw;
+            }
+        }
+    }
+
+    .free-shipping {
+        color: #226a66;
+        line-height: 3vw;
+        font-family: 'Futura-Bold', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 4.4vw;
+        margin: 3.8vw 0 3vw 3vw !important;
+        .dollar-asterisk {
+            position: relative;
+            font-size: 3vw;
+            top: 0.4vw;
+        }
+    }
+
+    .shop-now-cta {
+        font-size: 4.7vw;
+        font-family: 'Futura-Bold', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 0.4vw;
+        background-color: #000000;
+        color: #ffffff;
+        display: inline-block;
+        padding: 1.5vw 3vw;
+        margin: 5.5vw 0 0 0 !important;
+    }
+
+    .exceptions {
+        font-family: 'FuturaStd-Light', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        margin: 5px 0 0 0 !important;
+        text-align: center;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+        text-align: right;
+        color: #000000;
+    }
+
+    // Between Desktop and Mobile.
+    @media only screen and (min-width: 667px) {
+        .hero-text-container {
+            top: 23%;
+        }
+        
+        .discount {
+            font-size: 5.5vw;
+            margin: 0 0 0.5vw 0 !important;
+            line-height: 8vw;
+            .show-break {
+                display: none;
+            }
+
+            .everything-copy {
+                font-size: 5.5vw;
+                line-height: 8vw;
+                .everything-asterisk {
+                    top: 0.5vw;
+                    right: 0.3vw;
+                    font-size: 3.5vw;
+                }
+            }
+        }
+
+        .free-shipping {
+            font-size: 2.8vw;
+            margin: 0 !important;
+            
+            .dollar-asterisk {
+                font-size: 1.8vw;
+                top: 0.2vw;
+            }
+        }
+
+        .shop-now-cta {
+            padding: 0.7vw 1.2vw;
+            font-size: 2.3vw;
+            margin: 3.8vw 0 0 0 !important;
+            letter-spacing: 0.2vw;
+        }
+    }
+
+    // Greater than 1008px (desktop)
+    @media only screen and (min-width: 1008px) {
+        .hero-text-container {
+            top: 25%;
+        }
+
+        .discount {
+            font-size: 58px;
+            line-height: 95px;
+            margin: 0 !important;
+            .everything-copy {
+                font-size: 58px;
+                line-height: 0;
+                left: 25px;
+                .everything-asterisk {
+                    top: 3px;
+                    right: 2px;
+                    font-size: 35px;
+                }
+            }
+        }
+
+        .free-shipping {
+            font-size: 26px;
+            margin: 0 0 0 3px !important;
+            line-height: 35px;
+            .dollar-asterisk {
+                font-size: 16px;
+                top: 1px;
+            }
+        }
+
+        .shop-now-cta {
+            padding: 5px 12px;
+            font-size: 22px;
+            margin: 40px 0 0 0 !important;
+            letter-spacing: 3px;
+        }
+    }
+
+    // IE10+ CSS styles go here
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+
+        h1,
+        h3 {
+            background-image: none;
+            color: #ccb96f;
+        }
+    }
+}
