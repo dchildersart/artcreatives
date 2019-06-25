@@ -1,0 +1,39 @@
+// Mobile (Design)
+.apc-fourth-of-july-wrapper {
+    position: relative;
+    max-width: 1008px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    picture {
+        display: block;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .exceptions {
+        font-family: 'FuturaStd-Light', 'Apercu', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+        margin: 5px 5px 0 0 !important;
+        text-align: center;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+        text-align: right;
+        color: #000000;
+    }
+
+    // Greater than 1008px (desktop)
+    @media only screen and (min-width: 1008px) {
+        .exceptions {
+            margin: 5px 0 0 0 !important;
+        }
+    }
+
+    // IE10+ CSS styles go here
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {}
+}
